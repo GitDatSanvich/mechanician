@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模块化设计</title>
+    <!--M model  数据模型-->
+    <!--V view   视图 显示数据的位置-->
+    <!--C controller  控制器 控制数据-->
+
+    <script src="../plugins/angularjs/angular.min.js"></script>
+
+    <script>
+         var myApp = angular.module("myFirstApp",[]); //自定义模块
+         // 一个模块下可以有多个控制器
+        myApp.controller("myController",function ($scope) {
+             $scope.username="lisi";
+        })
+         // myApp.controller("myController1",function ($scope) {
+         //
+         // })
+    </script>
+
+</head>
+<body ng-app="myFirstApp"  ng-controller="myController">
+   {{username}}
+</body>
+</html>

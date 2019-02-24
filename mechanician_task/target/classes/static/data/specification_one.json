@@ -1,0 +1,12 @@
+{
+	"tbSpecification":{"id":27,"specName":"网络"},
+	"tbSpecificationOptionList":[
+		{"id":98,"optionName":"移动3G","orders":1,"specId":27},
+		{"id":99,"optionName":"移动4G","orders":2,"specId":27},
+		{"id":100,"optionName":"联通3G","orders":3,"specId":27},
+		{"id":101,"optionName":"联通4G","orders":4,"specId":27},
+		{"id":112,"optionName":"电信3G","orders":5,"specId":27},
+		{"id":113,"optionName":"电信4G","orders":6,"specId":27},
+		{"id":117,"optionName":"双卡","orders":10,"specId":27}
+	]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVC</title>
+    <!--M model  数据模型-->
+    <!--V view   视图 显示数据的位置-->
+    <!--C controller  控制器 控制数据-->
+
+    <script src="../plugins/angularjs/angular.min.js"></script>
+    <!--$scope 是js和html、交互的入口 -->
+    <script>
+        function myController($scope){  <!--C controller  控制器 控制数据-->
+           $scope.username="zhangsan";  <!--M model  数据模型-->
+        }
+    </script>
+
+</head>
+<body ng-app  ng-controller="myController">
+ <div   >
+     1-{{username}}  <!--V view   视图 显示数据的位置-->
+ </div>
+ <div>
+    2-{{username}}   <!--V view   视图 显示数据的位置-->
+ </div>
+</body>
+</html>
