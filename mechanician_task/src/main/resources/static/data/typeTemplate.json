@@ -1,0 +1,66 @@
+{
+	"total": 100,
+	"rows": [
+		{
+			"id": 35,
+			"name": "手机",
+			"brandIds": [
+				{
+					"id": 1,
+					"text": "联想"
+				},
+				{
+					"id": 3,
+					"text": "三星"
+				},
+				{
+					"id": 2,
+					"text": "华为"
+				}
+			],
+			"customAttributeItems": [
+				{
+					"text": "包邮方式"
+				},
+				{
+					"text": "颜色"
+				}
+			],
+			"specIds": [
+				{
+					"id": 27,
+					"text": "网络"
+				},
+				{
+					"id": 32,
+					"text": "机身内存"
+				}
+			]
+		},
+		{
+			"id": 39,
+			"name": "男士上衣",
+			"brandIds": [
+				{
+					"id": 26,
+					"text": "海澜之家"
+				},
+				{
+					"id": 27,
+					"text": "劲霸男装"
+				}
+			],
+			"customAttributeItems": [
+				{
+					"text": "是否均码"
+				}
+			],
+			"specIds": [
+				{
+					"id": 26,
+					"text": "上衣尺码"
+				}
+			]
+		}
+	]
+}

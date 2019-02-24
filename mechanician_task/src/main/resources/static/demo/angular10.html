@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内置服务</title>
+
+    <script src="../plugins/angularjs/angular.min.js"></script>
+
+    <script>
+         var myApp = angular.module("myFirstApp",[]); //自定义模块
+
+        myApp.controller("myController",function ($scope,$http) {
+
+            $scope.findAll=function () {
+                $http.get("../brand/findAll").success(function (response) {
+                    $scope.list = response;
+                })
+            }
+            
+        })
+    </script>
+
+</head>
+<body ng-app="myFirstApp"  ng-controller="myController" ng-init="findAll()">
+    <div ng-repeat="pojo in list">
+        {{pojo.name}}
+    </div>
+
+</body>
+</html>

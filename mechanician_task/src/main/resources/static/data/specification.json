@@ -1,0 +1,8 @@
+{
+"total":100,
+"rows":[
+	{"id":1,"specName":"网络"},
+	{"id":2,"specName":"机身内存"},
+	{"id":3,"specName":"屏幕尺寸"}
+]
+}

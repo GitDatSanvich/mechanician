@@ -1,0 +1,36 @@
+{
+			"id": 35,
+			"name": "手机",
+			"brandIds": [
+				{
+					"id": 1,
+					"text": "联想"
+				},
+				{
+					"id": 3,
+					"text": "三星"
+				},
+				{
+					"id": 2,
+					"text": "华为"
+				}
+			],
+			"customAttributeItems": [
+				{
+					"text": "包邮方式"
+				},
+				{
+					"text": "颜色"
+				}
+			],
+			"specIds": [
+				{
+					"id": 27,
+					"text": "网络"
+				},
+				{
+					"id": 32,
+					"text": "机身内存"
+				}
+			]
+		}

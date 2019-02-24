@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>双向绑定</title>
+    <script src="../plugins/angularjs/angular.min.js"></script>
+
+    <script>
+        function show() {
+            // 获取input中的内容
+            var content = document.getElementById("myInput").value;
+            // 把获取的内容放到span中
+            document.getElementById("mySpan").innerHTML=content;
+        }
+        
+    </script>
+
+</head>
+<body ng-app>
+   <input id="myInput" onkeyup="show()"><br/>
+输入的内容是：<span id="mySpan"></span>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <input ng-model="myContent" ><br/>
+   输入的内容是：{{myContent}}
+
+<!--双向绑定：-->
+  <!--html和js-->
+
+</body>
+</html>

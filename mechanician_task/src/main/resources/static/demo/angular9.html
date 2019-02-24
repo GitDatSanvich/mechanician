@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>循环对象数组</title>
+
+
+    <script src="../plugins/angularjs/angular.min.js"></script>
+
+    <script>
+         var myApp = angular.module("myFirstApp",[]); //自定义模块
+
+        myApp.controller("myController",function ($scope) {
+            $scope.list=[{"username":"AAAAA"},{"username":"BBBBB"},{"username":"CCCCC"}];
+        })
+    </script>
+
+</head>
+<body ng-app="myFirstApp"  ng-controller="myController">
+    <div ng-repeat="pojo in list">
+        {{pojo.username}}
+    </div>
+
+</body>
+</html>
