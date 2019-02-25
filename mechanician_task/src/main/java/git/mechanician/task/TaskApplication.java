@@ -10,8 +10,8 @@ import util.IdWorker;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableDiscoveryClient //让注册中心能够发现，扫描到该服务。
-@EnableFeignClients //调用其他服务的api
+@EnableDiscoveryClient
+@EnableFeignClients
 public class TaskApplication {
 
     public static void main(String[] args) {

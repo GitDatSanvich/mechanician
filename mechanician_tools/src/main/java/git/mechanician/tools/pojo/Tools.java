@@ -14,7 +14,7 @@ import java.io.Serializable;
 public class Tools implements Serializable{
 
 	@Id
-    private String id;//工具文本id
+	private String id;//工具文本id
 
 
 	
@@ -22,15 +22,15 @@ public class Tools implements Serializable{
 	private String tools;//工具文本
 
 
-    public String getId() {
-        return id;
-    }
+	public String getId() {
+		return id;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public String getTaskId() {
+	public String getTaskId() {
 		return taskId;
 	}
 	public void setTaskId(String taskId) {

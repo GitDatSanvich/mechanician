@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * @ClassName TaskClient
+ * @ClassName ToolsClient
  * @Author GitDatSanvich
  * @Date 2019/2/25 15:42
  **/
 @FeignClient("mechanician-tools")
-public interface TaskClient {
+public interface ToolsClient {
     @RequestMapping(value = "/tools/{id}", method = RequestMethod.GET)
     public Result findByTaskId(@PathVariable("id") String id);
 }

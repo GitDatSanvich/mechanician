@@ -9,9 +9,10 @@ public class Result implements Serializable {
 	private Integer code;
 	private String message;
 	private Object data;
-	
-	
-	
+
+	public Result() {
+	}
+
 	public Result(boolean flag, Integer code, String message, Object data) {
 		super();
 		this.flag = flag;
