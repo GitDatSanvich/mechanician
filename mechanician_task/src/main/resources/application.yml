@@ -1,8 +1,8 @@
 server: 
   port: 9001
 spring: 
-  application:  
-    name: mechanician-task #指定服务名
+  application:
+    name: mechanician-task
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://39.105.148.211:3306/mechanician_task?useSSL=false&useUnicode=true&amp;characterEncoding=UTF8

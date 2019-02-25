@@ -14,27 +14,27 @@ import java.io.Serializable;
 public class Tools implements Serializable{
 
 	@Id
-	private String id;//工具文本id
+	private String Id;//工具文本id
 
 
-	
-	private String taskId;//任务ID
+	private String task;//任务ID
 	private String tools;//工具文本
 
 
 	public String getId() {
-		return id;
+		return Id;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setId(String Id) {
+		this.Id = Id;
 	}
 
-	public String getTaskId() {
-		return taskId;
+	public String getTask() {
+		return task;
 	}
-	public void setTaskId(String taskId) {
-		this.taskId = taskId;
+
+	public void setTask(String task) {
+		this.task = task;
 	}
 
 	public String getTools() {		
