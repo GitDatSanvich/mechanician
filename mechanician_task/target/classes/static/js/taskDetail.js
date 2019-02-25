@@ -1,14 +1,14 @@
 new Vue({
-    el:"#app",
-    data:{
+    el: "#app",
+    data: {
         Id: {},
-        task:{},
+        task: {},
         tools: {}
     },
-    methods:{
-        findById:function(Id){
+    methods: {
+        findById: function (Id) {
             var _this = this;
-            var url = "task/"+Id;
+            var url = "task/" + Id;
             axios.get(url).then(function (result) {
                 console.log(result);
                 _this.task = result.data.data;
@@ -16,9 +16,10 @@ new Vue({
                 console.log(err);
             });
         },
-        findtoolsByTaskId:function(Id){
+        findtoolsByTaskId: function (Id) {
             var _this = this;
-            var url = "localhost:9002/tools/"+Id;
+            var url = "localhost:9002/tools/" + Id;
+
             axios.get(url).then(function (result) {
                 console.log(result);
                 _this.tools = result.data.data;
@@ -27,8 +28,8 @@ new Vue({
             });
         }
     },
-    created:function () {
-        var Id = location.search.substring(4,location.search.length);
+    created: function () {
+        var Id = location.search.substring(4, location.search.length);
         this.findById(Id);
         this.findtoolsByTaskId(Id);
     }

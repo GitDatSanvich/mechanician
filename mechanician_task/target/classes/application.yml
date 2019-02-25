@@ -1,6 +1,5 @@
 server: 
   port: 9001
-
 spring: 
   application:  
     name: mechanician-task #指定服务名
@@ -12,3 +11,7 @@ spring:
   jpa: 
     database: MySQL
     show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
