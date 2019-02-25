@@ -1,0 +1,11 @@
+server:
+  port: 6868
+spring:
+  application:
+    name: mechanician-eureka
+eureka:
+  client:
+    registerWithEureka: false #是否将自己注册到Eureka服务中，本身就是所有无需注册
+    fetchRegistry: false #是否从Eureka中获取注册信息
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka/
