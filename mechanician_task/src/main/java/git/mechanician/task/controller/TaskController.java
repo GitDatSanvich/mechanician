@@ -2,6 +2,7 @@ package git.mechanician.task.controller;
 import java.util.List;
 import java.util.Map;
 
+import git.mechanician.task.cilent.TaskClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -29,12 +30,18 @@ public class TaskController {
 
 	@Autowired
 	private TaskService taskService;
-	
-	
+	@Autowired
+	private TaskClient taskClient;
+
 	/**
 	 * 查询全部数据
+	 *
 	 * @return
 	 */
+	@RequestMapping(value = "/tools/{id}", method = RequestMethod.GET)
+	public Result findToolsByTaksId(@PathVariable String id) {
+		return taskClient.findByTaskId(id);
+	}
 	@RequestMapping(method= RequestMethod.GET)
 	public Result findAll(){
 		return new Result(true,StatusCode.OK,"查询成功",taskService.findAll());

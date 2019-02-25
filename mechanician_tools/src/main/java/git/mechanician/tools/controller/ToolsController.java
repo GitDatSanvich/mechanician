@@ -46,8 +46,8 @@ public class ToolsController {
 	 * @return
 	 */
 	@RequestMapping(value="/{id}",method= RequestMethod.GET)
-	public Result findById(@PathVariable String id){
-		return new Result(true,StatusCode.OK,"查询成功",toolsService.findtoolsByTaskId(id));
+	public Result findByTaskId(@PathVariable String id) {
+		return new Result(true, StatusCode.OK, "查询成功", toolsService.findByTaskId(id));
 	}
 
 
@@ -104,4 +104,5 @@ public class ToolsController {
 		toolsService.deleteById(id);
 		return new Result(true,StatusCode.OK,"删除成功");
 	}
+
 }

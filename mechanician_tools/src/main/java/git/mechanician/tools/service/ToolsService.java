@@ -118,6 +118,14 @@ public class ToolsService {
 			@Override
 			public Predicate toPredicate(Root<Tools> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
 				List<Predicate> predicateList = new ArrayList<Predicate>();
+				// 工具文本id
+				if (searchMap.get("id") != null && !"".equals(searchMap.get("id"))) {
+					predicateList.add(cb.like(root.get("id").as(String.class), "%" + (String) searchMap.get("id") + "%"));
+				}
+				// 任务ID
+				if (searchMap.get("taskId") != null && !"".equals(searchMap.get("taskId"))) {
+					predicateList.add(cb.like(root.get("taskId").as(String.class), "%" + (String) searchMap.get("taskId") + "%"));
+				}
                 // 工具文本
                 if (searchMap.get("tools")!=null && !"".equals(searchMap.get("tools"))) {
                 	predicateList.add(cb.like(root.get("tools").as(String.class), "%"+(String)searchMap.get("tools")+"%"));
@@ -130,7 +138,7 @@ public class ToolsService {
 
 	}
 
-	public List<Tools> findtoolsByTaskId(String id) {
+	public List<Tools> findByTaskId(String id) {
 		return toolsDao.findAllByTaskId(id);
 	}
 }

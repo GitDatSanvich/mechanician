@@ -18,7 +18,7 @@ new Vue({
         },
         findtoolsByTaskId: function (Id) {
             var _this = this;
-            var url = "localhost:9002/tools/" + Id;
+            var url = "task/tools/" + Id;
 
             axios.get(url).then(function (result) {
                 console.log(result);

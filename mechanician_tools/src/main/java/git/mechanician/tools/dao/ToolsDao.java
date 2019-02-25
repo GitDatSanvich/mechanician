@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import git.mechanician.tools.pojo.Tools;
 
+import javax.persistence.Id;
 import java.util.List;
 
 /**
@@ -13,5 +14,5 @@ import java.util.List;
  *
  */
 public interface ToolsDao extends JpaRepository<Tools,String>,JpaSpecificationExecutor<Tools>{
-    public List<Tools> findAllByTaskId(String taskId);
+    public List<Tools> findAllByTaskId(String Id);
 }

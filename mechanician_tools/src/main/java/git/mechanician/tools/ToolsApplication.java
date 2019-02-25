@@ -16,5 +16,4 @@ public class ToolsApplication {
 	public IdWorker idWorkker(){
 		return new IdWorker(1, 1);
 	}
-	
 }

@@ -1,6 +1,8 @@
 package entity;
 
-public class Result {
+import java.io.Serializable;
+
+public class Result implements Serializable {
 
 	
 	private boolean flag;
