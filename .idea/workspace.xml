@@ -4,14 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/detail.html" line="96" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="Git还是没玩懂">
-      <change afterPath="$PROJECT_DIR$/mechanician_eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +29,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="242">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -46,23 +71,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mechanician_eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -119,9 +146,7 @@
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/user.js" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/mechanician_tools/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/detail.html" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/ToolsController.java" />
         <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/dao/ToolsDao.java" />
@@ -130,9 +155,12 @@
         <option value="$PROJECT_DIR$/mechanician_task/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/mechanician_eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mechanician_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_tools/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" />
       </list>
     </option>
   </component>
@@ -156,8 +184,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="258" />
+    <option name="x" value="8" />
+    <option name="y" value="16" />
     <option name="width" value="1434" />
     <option name="height" value="696" />
   </component>
@@ -196,6 +224,73 @@
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -214,7 +309,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551069807260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551070927530" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,7 +393,7 @@
       <workItem from="1551014729739" duration="145000" />
       <workItem from="1551016132801" duration="387000" />
       <workItem from="1551025013843" duration="4014000" />
-      <workItem from="1551068340424" duration="1352000" />
+      <workItem from="1551068340424" duration="2568000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551030881945</created>
@@ -342,17 +437,31 @@
       <option name="project" value="LOCAL" />
       <updated>1551032618855</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Git还是没玩懂">
+      <created>1551069814716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551069814716</updated>
+    </task>
+    <task id="LOCAL-00008" summary="出现了跨域请求 添加Spring cloud">
+      <created>1551069860015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551069860015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39834000" />
+    <option name="totallyTimeSpent" value="41050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="604" y="337" width="1434" height="696" extended-state="0" />
+    <frame x="8" y="16" width="1434" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.13027656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.13027656" />
       <window_info id="Structure" order="1" sideWeight="0.5007949" side_tool="true" weight="0.2153518" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +476,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291815" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006345" side_tool="true" weight="0.4099783" />
@@ -472,7 +581,8 @@
     </ignored-roots>
     <MESSAGE value="第一次提交 实现了一些基本的查询功能 还欠缺很多" />
     <MESSAGE value="Git还是没玩懂" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git还是没玩懂" />
+    <MESSAGE value="出现了跨域请求 添加Spring cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="出现了跨域请求 添加Spring cloud" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -561,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_common/src/main/java/entity/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -592,24 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -691,10 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mechanician_eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="176">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -705,20 +794,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="323">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
