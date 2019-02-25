@@ -105,4 +105,9 @@ public class ToolsController {
 		return new Result(true,StatusCode.OK,"删除成功");
 	}
 
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+	public Result deleteByTaskId(@PathVariable("id") String id) {
+		toolsService.deleteByTask(id);
+		return new Result(true, StatusCode.OK, "删除成功");
+	}
 }

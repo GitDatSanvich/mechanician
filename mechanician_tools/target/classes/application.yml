@@ -1,7 +1,7 @@
 server: 
   port: 9002
 spring: 
-  application:  
+  application:
     name: mechanician-tools
   datasource:  
     driverClassName: com.mysql.jdbc.Driver

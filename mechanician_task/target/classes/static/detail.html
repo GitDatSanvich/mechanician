@@ -59,55 +59,69 @@
 </head>
 <body>
 <div id="app">
-<div style="height: 30px;">
-    <div style="float: left; position: relative;left: 50%;">
-        <div style="position: relative;left: -50%;">
-            <h1 style="color: #e62929;">只供川航北京维修分部工作之余交流使用</h1>
+    <div style="height: 30px;">
+        <div style="float: left; position: relative;left: 50%;">
+            <div style="position: relative;left: -50%;">
+                <h1 style="color: #e62929;">只供川航北京维修分部工作之余交流使用</h1>
+            </div>
         </div>
     </div>
-</div>
-<br>
-<br>
-<br>
-<div style="height: 30px;">
-    <div style="float: left; position: relative;left: 50%;">
-        <div style="position: relative;left: -50%;">
-            <h1 style="color: #e62929;"><strong>不作为任何维修依据</strong></h1>
+    <br>
+    <br>
+    <br>
+    <div style="height: 30px;">
+        <div style="float: left; position: relative;left: 50%;">
+            <div style="position: relative;left: -50%;">
+                <h1 style="color: #e62929;"><strong>不作为任何维修依据</strong></h1>
+            </div>
         </div>
     </div>
-</div>
-<div>
-    <div class="box-body">
-        <table class="table table-bordered table-striped table-hover dataTable">
-            <thead>
-            <tr>
-                <th class="sort-highlight" width="150px">章节号</th>
-                <td>{{task.chapter1}}-{{task.chapter2}}-{{task.chapter3}}</td>
-            </tr>
-            <tr>
-                <th class="sort-highlight">名称</th>
-                <td>{{task.title}}</td>
-            </tr>
-            <tr>
-                <th class="sort-highlight">作者(有问题找他!~)</th>
-                <td>{{task.writer}}</td>
-            </tr>
-            <tr>
-                <th class="sort-highlight">工作描述</th>
-                <td>{{task.main}}</td>
-            </tr>
-            <tr>
-                <th class="sort-highlight">使用工具</th>
-                <td>{{tools.tools}}</td>
-            </tr>
-            <tr>
-                <th class="sort-highlight">注意事项</th>
-                <td>{{task.notice}}</td>
-            </tr>
-            </thead>
-        </table>
+    <div>
+        <div class="box-body">
+            <table class="table table-bordered table-striped table-hover dataTable">
+                <thead>
+                <tr>
+                    <th class="sort-highlight" width="150px">章节号</th>
+                    <td>{{task.chapter1}}-{{task.chapter2}}-{{task.chapter3}}</td>
+                </tr>
+                <tr>
+                    <th class="sort-highlight">名称</th>
+                    <td>{{task.title}}</td>
+                </tr>
+                <tr>
+                    <th class="sort-highlight">作者(有问题找他!~)</th>
+                    <td>{{task.writer}}</td>
+                </tr>
+                <tr>
+                    <th class="sort-highlight">工作描述</th>
+                    <td>{{task.main}}</td>
+                </tr>
+                <tr>
+                    <th class="sort-highlight">使用工具</th>
+                    <td v-for="tool in tools">{{tool.tools}}</td>
+                </tr>
+                <tr>
+                    <th class="sort-highlight">注意事项</th>
+                    <td>{{task.notice}}</td>
+                </tr>
+                </thead>
+            </table>
+        </div>
+        <div style="height: 30px;">
+            <div style="float: left; position: relative;left: 50%;">
+                <div style="position: relative;left: -50%;">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default" title="删除" data-toggle="modal"
+                                data-target="#editModal" @click="deleteTask(task.id)"><i class="fa fa-file-o"></i> 删除
+                        </button>
+                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
+                                class="fa fa-refresh"></i> 修改
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 </div>
 </body>
 <script src="js/vuejs-2.5.16.js"></script>

@@ -44,7 +44,7 @@ public class TaskService {
 	 * @return
 	 */
 	public List<Task> findAll() {
-		return taskDao.findAll();
+		return taskDao.findByEnable("1");
 	}
 
 	
@@ -103,7 +103,9 @@ public class TaskService {
 	 * @param id
 	 */
 	public void deleteById(String id) {
-		taskDao.deleteById(id);
+		Task task = taskDao.findById(id).get();
+		task.setEnable("0");
+		taskDao.save(task);
 	}
 
 	/**

@@ -1,7 +1,7 @@
 server: 
   port: 9001
 spring: 
-  application:  
+  application:
     name: mechanician-task
   datasource:  
     driverClassName: com.mysql.jdbc.Driver

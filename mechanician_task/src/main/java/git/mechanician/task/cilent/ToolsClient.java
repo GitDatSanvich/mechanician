@@ -15,4 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface ToolsClient {
     @RequestMapping(value = "/tools/{id}", method = RequestMethod.GET)
     public Result findByTaskId(@PathVariable("id") String id);
+
+    @RequestMapping(value = "tools/delete/{id}", method = RequestMethod.GET)
+    public Result deleteByTaskId(@PathVariable("id") String id);
 }

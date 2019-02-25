@@ -26,8 +26,21 @@ new Vue({
             }).catch(function (err) {
                 console.log(err);
             });
+        },
+        deleteTask: function (id) {
+            var _this = this;
+            var url = "task/delete/" + id;
+            axios.get(url).then(function (result) {
+                if (result.data.flag === true) {
+                    alert("删除成功!");
+                    window.location.href='index.html';
+                }
+            }).catch(function (err) {
+                console.log(err);
+            });
         }
     },
+
     created: function () {
         var Id = location.search.substring(4, location.search.length);
         this.findById(Id);

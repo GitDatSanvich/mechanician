@@ -137,4 +137,8 @@ public class ToolsService {
 	public List<Tools> findByTaskId(String id) {
 		return toolsDao.findByTask(id);
 	}
+
+	public void deleteByTask(String id) {
+		toolsDao.deleteByTask(id);
+	}
 }

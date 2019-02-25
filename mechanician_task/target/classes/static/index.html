@@ -77,8 +77,6 @@
                         <button type="button" class="btn btn-default" title="新建" data-toggle="modal"
                                 data-target="#editModal"><i class="fa fa-file-o"></i> 新建
                         </button>
-                        <button type="button" class="btn btn-default" title="删除"><i class="fa fa-trash-o"></i> 删除
-                        </button>
                         <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
                                 class="fa fa-refresh"></i> 刷新
                         </button>
@@ -111,7 +109,7 @@
                     <td><input type="checkbox"></td>
                     <td>{{task.chapter1}}-{{task.chapter2}}-{{task.chapter3}}</td>
                     <td>{{task.title}}</td>
-                    <td>{{task.writer}}+{{task.id}}</td>
+                    <td>{{task.writer}}</td>
                     <td class="text-center">
                         <a @click="toDetail(task.id)">
                             <span>查看</span>
