@@ -75,7 +75,7 @@
                 <div class="form-group form-inline">
                     <div class="btn-group">
                         <button type="button" class="btn btn-default" title="新建" data-toggle="modal"
-                                data-target="#editModal"><i class="fa fa-file-o"></i> 新建
+                                @click="toSave()"><i class="fa fa-file-o"></i> 新建
                         </button>
                         <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
                                 class="fa fa-refresh"></i> 刷新
@@ -85,7 +85,7 @@
             </div>
             <div class="box-tools pull-right">
                 <div class="has-feedback">
-                    搜索  章节号:<input type="text">-<input type="text">-<input type="text">
+                    搜索 章节号:<input type="text">-<input type="text">-<input type="text">
                     <button type="button">查询</button>
                 </div>
             </div>
@@ -114,9 +114,9 @@
                         <a @click="toDetail(task.id)">
                             <span>查看</span>
                         </a>
-                        <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal">
-                            修改
-                        </button>
+                        <a @click="toUpdate(task.id)">
+                            <span>更改</span>
+                        </a>
                     </td>
                 </tr>
                 </tbody>
@@ -127,36 +127,6 @@
         <!-- 数据表格 /-->
     </div>
     <!-- /.box-body -->
-
-    <!-- 编辑窗口 -->
-    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="myModalLabel">品牌编辑</h3>
-                </div>
-                <div class="modal-body">
-                    <table class="table table-bordered table-striped" width="800px">
-                        <tr>
-
-                            <td>品牌名称</td>
-                            <td><input class="form-control" placeholder="品牌名称"></td>
-                        </tr>
-                        <tr>
-                            <td>首字母</td>
-                            <td><input maxlength="1" class="form-control" placeholder="首字母"></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-success" data-dismiss="modal" aria-hidden="true">保存</button>
-                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <script src="js/vuejs-2.5.16.js"></script>
 <script src="js/axios-0.18.0.js"></script>

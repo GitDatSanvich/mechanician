@@ -33,7 +33,7 @@ new Vue({
             axios.get(url).then(function (result) {
                 if (result.data.flag === true) {
                     alert("删除成功!");
-                    window.location.href='index.html';
+                    window.location.href = 'index.html';
                 }
             }).catch(function (err) {
                 console.log(err);

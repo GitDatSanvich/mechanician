@@ -82,7 +82,13 @@ public class ToolsService {
 	 * @param tools
 	 */
 	public void add(Tools tools) {
-		tools.setId( idWorker.nextId()+"" );
+		List<Tools> toolsList = toolsDao.findByTask(tools.getTask());
+		if (toolsList.size() == 0) {
+			tools.setId(idWorker.nextId() + "");
+		}
+		System.out.println(tools.getId());
+		System.out.println(tools.getTask());
+		System.out.println(tools.getTools());
 		toolsDao.save(tools);
 	}
 

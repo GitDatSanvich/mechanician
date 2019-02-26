@@ -1,16 +1,28 @@
-server: 
+server:
   port: 9002
-spring: 
+spring:
   application:
     name: mechanician-tools
-  datasource:  
+  datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://39.105.148.211:3306/mechanician_tools?useSSL=false&useUnicode=true&amp;characterEncoding=UTF8
     username: root
     password: 123456
-  jpa: 
+  jpa:
     database: MySQL
     show-sql: true
+  rabbitmq:
+    host: 39.105.148.211
+  redis:
+    host: 39.105.148.211
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 0
+        min-idle: 0
+    timeout: 0
 eureka:
   client:
     service-url:

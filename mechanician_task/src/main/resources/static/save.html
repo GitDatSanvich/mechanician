@@ -62,7 +62,7 @@
     <div style="height: 30px;">
         <div style="float: left; position: relative;left: 50%;">
             <div style="position: relative;left: -50%;">
-                <h1 style="color: #e62929;">只供川航北京维修分部工作之余交流使用</h1>
+                <h1 style="color: #e62929;">不作为任何维修依据</h1>
             </div>
         </div>
     </div>
@@ -72,37 +72,45 @@
     <div style="height: 30px;">
         <div style="float: left; position: relative;left: 50%;">
             <div style="position: relative;left: -50%;">
-                <h1 style="color: #e62929;"><strong>不作为任何维修依据</strong></h1>
+                <h1 style="color: #e62929;"><strong>为了功能完善但是请认真填写</strong></h1>
             </div>
         </div>
     </div>
     <div>
         <div class="box-body">
-            <table class="table table-bordered table-striped table-hover dataTable">
+            <table class="table table-bordered table-striped table-hover dataTable" ALIGN="CENTER">
                 <thead>
                 <tr>
+                    <th class="sort-highlight" hidden="hidden">任务ID(记录数据库用不需要看)</th>
+                    <td hidden="hidden"><input type="text" v-model="task.id" disabled="disabled"></td>
+                </tr>
+                <tr>
                     <th class="sort-highlight" width="150px">章节号</th>
-                    <td>{{task.chapter1}}-{{task.chapter2}}-{{task.chapter3}}</td>
+                    <td><input type="text" placeholder="章节号前两位" v-model="task.chapter1">-<input type="text"
+                                                                                                placeholder="章节号中间两位"
+                                                                                                v-model="task.chapter2">-<input
+                            type="text" placeholder="章节号后面两位" v-model="task.chapter3"></td>
                 </tr>
                 <tr>
                     <th class="sort-highlight">名称</th>
-                    <td>{{task.title}}</td>
+                    <td><input type="text" placeholder="显示在首页的名称" v-model="task.title"></td>
                 </tr>
                 <tr>
                     <th class="sort-highlight">作者(有问题找他!~)</th>
-                    <td>{{task.writer}}</td>
+                    <td><input type="text" placeholder="写好自己的名字!" v-model="task.writer"></td>
                 </tr>
                 <tr>
                     <th class="sort-highlight">工作描述</th>
-                    <td>{{task.main}}</td>
+                    <td><input type="text" placeholder="都干了啥,在这里说说." v-model="task.main"></td>
                 </tr>
                 <tr>
-                    <th class="sort-highlight">使用工具</th>
-                    <td>{{tools.tools}}</td>
+                    <th class="sort-highlight">使用工具{{taskId.Id}}</th>
+                    <td><textarea v-model="tools.tools" placeholder="用啥工具了啊,我看看抽空改个图片的" rows="10" cols="50"></textarea>
+                    </td>
                 </tr>
                 <tr>
                     <th class="sort-highlight">注意事项</th>
-                    <td>{{task.notice}}</td>
+                    <td><textarea v-model="task.notice" placeholder="有啥要注意的?" rows="10" cols="50"></textarea></td>
                 </tr>
                 </thead>
             </table>
@@ -111,11 +119,8 @@
             <div style="float: left; position: relative;left: 50%;">
                 <div style="position: relative;left: -50%;">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default" title="删除" data-toggle="modal"
-                                data-target="#editModal" @click="deleteTask(task.id)"><i class="fa fa-file-o"></i> 删除
-                        </button>
-                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
-                                class="fa fa-refresh"></i> 修改
+                        <button type="button" class="btn btn-default" title="保存" @click="saveAllTask()"><i
+                                class="fa fa-refresh"></i> 保存
                         </button>
                     </div>
                 </div>
@@ -126,5 +131,5 @@
 </body>
 <script src="js/vuejs-2.5.16.js"></script>
 <script src="js/axios-0.18.0.js"></script>
-<script src="js/taskDetail.js"></script>
+<script src="js/saveTask.js"></script>
 </html>

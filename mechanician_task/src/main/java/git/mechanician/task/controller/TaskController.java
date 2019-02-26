@@ -5,11 +5,15 @@ import entity.Result;
 import entity.StatusCode;
 import git.mechanician.task.cilent.ToolsClient;
 import git.mechanician.task.pojo.Task;
+import git.mechanician.task.pojo.Tools;
 import git.mechanician.task.service.TaskService;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -26,7 +30,19 @@ public class TaskController {
     private TaskService taskService;
     @Autowired
     private ToolsClient toolsClient;
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+    @Autowired
+    private RedisTemplate redisTemplate;
 
+    @RequestMapping(value = "/saveTools", method = RequestMethod.POST)
+    public Result addTools(@RequestBody Tools tools) {
+        Map map = new HashMap<String, String>();
+        map.put("ToolsId", tools.getId());
+        map.put("tools", tools.getTools());
+        rabbitTemplate.convertAndSend("tools", map);
+        return new Result(true, StatusCode.OK, "增加成功");
+    }
     /**
      * 查询全部数据
      *
@@ -87,7 +103,10 @@ public class TaskController {
      */
     @RequestMapping(method = RequestMethod.POST)
     public Result add(@RequestBody Task task) {
-        taskService.add(task);
+        Task resultTask = taskService.add(task);
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("taskId", task.getId());
+        redisTemplate.boundListOps("taskId").rightPush(map);
         return new Result(true, StatusCode.OK, "增加成功");
     }
 
@@ -113,4 +132,5 @@ public class TaskController {
         taskService.deleteById(id);
         return new Result(true, StatusCode.OK, "删除成功");
     }
+
 }

@@ -47,9 +47,10 @@ public class ToolsController {
 	 */
 	@RequestMapping(value="/{id}",method= RequestMethod.GET)
 	public Result findByTaskId(@PathVariable String id) {
-		return new Result(true, StatusCode.OK, "查询成功", toolsService.findByTaskId(id));
+		List<Tools> toolsList = toolsService.findByTaskId(id);
+		Tools tools = toolsList.get(0);
+		return new Result(true, StatusCode.OK, "查询成功", tools);
 	}
-
 
 	/**
 	 * 分页+多条件查询

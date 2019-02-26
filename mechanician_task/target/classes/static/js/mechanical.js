@@ -19,7 +19,13 @@ new Vue({
             });
         },
         toDetail:function (id) {
-            window.open("detail.html?Id="+id)
+            window.open("detail.html?Id="+id);
+        },
+        toSave: function () {
+            window.open("save.html?Id=");
+        },
+        toUpdate: function (id) {
+            window.open("save.html?Id=" + id);
         }
     },
     created:function () {

@@ -1,8 +1,10 @@
 package git.mechanician.task.cilent;
 
 import entity.Result;
+import git.mechanician.task.pojo.Tools;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -18,4 +20,8 @@ public interface ToolsClient {
 
     @RequestMapping(value = "tools/delete/{id}", method = RequestMethod.GET)
     public Result deleteByTaskId(@PathVariable("id") String id);
+
+
+    @RequestMapping(value = "tools", method = RequestMethod.POST)
+    public Result add(@RequestBody Tools tools);
 }
