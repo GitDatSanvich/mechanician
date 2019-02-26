@@ -1,6 +1,6 @@
 server: 
   port: 9001
-spring: 
+spring:
   application:
     name: mechanician-task
   datasource:  
@@ -11,6 +11,18 @@ spring:
   jpa: 
     database: MySQL
     show-sql: true
+  rabbitmq:
+    host: 39.105.148.211
+  redis:
+    host: 39.105.148.211
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 0
+        min-idle: 0
+    timeout: 5000
 eureka:
   client:
     service-url:

@@ -14,7 +14,7 @@ import java.util.List;
  *
  */
 public interface ToolsDao extends JpaRepository<Tools,String>,JpaSpecificationExecutor<Tools>{
-    public List<Tools> findByTask(String Id);
+    public Tools findByTask(String Id);
 
     public void deleteByTask(String Id);
 }

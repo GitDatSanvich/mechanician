@@ -37,10 +37,9 @@ public class TaskController {
 
     @RequestMapping(value = "/saveTools", method = RequestMethod.POST)
     public Result addTools(@RequestBody Tools tools) {
-        Map map = new HashMap<String, String>();
-        map.put("ToolsId", tools.getId());
-        map.put("tools", tools.getTools());
-        rabbitTemplate.convertAndSend("tools", map);
+        String tool = tools.getTools() + ":" + tools.getTask();
+        rabbitTemplate.convertAndSend("test", tool);
+        System.out.println("cunrule");
         return new Result(true, StatusCode.OK, "增加成功");
     }
     /**
@@ -104,9 +103,14 @@ public class TaskController {
     @RequestMapping(method = RequestMethod.POST)
     public Result add(@RequestBody Task task) {
         Task resultTask = taskService.add(task);
-        Map<String, String> map = new HashMap<String, String>();
-        map.put("taskId", task.getId());
-        redisTemplate.boundListOps("taskId").rightPush(map);
+        boolean a = true;
+        while (a) {
+            Object o = redisTemplate.boundListOps("taskId").leftPop();
+            if (o == null) {
+                a = false;
+            }
+        }
+        redisTemplate.boundListOps("taskId").rightPush(resultTask.getId());
         return new Result(true, StatusCode.OK, "增加成功");
     }
 

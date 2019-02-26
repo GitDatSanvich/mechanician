@@ -39,20 +39,6 @@ new Vue({
                 console.log(err);
             });
         },
-        saveAllTask: function () {
-            if (confirm("确认录入完毕,开始保存?")) {
-                alert("保存步骤将分为任务和工具两部分...");
-                var _this = this;
-                if (_this.task.id === null || _this.task.id === "" || _this.task.id === undefined) {
-                    this.saveTask();
-                    _this.tools.task = _this.taskId.Id;
-                    this.saveTools();
-                } else {
-                    this.saveTask();
-                    this.saveTools();
-                }
-            }
-        },
         saveTask: function () {
             var _this = this;
             var url = "task";
@@ -71,8 +57,9 @@ new Vue({
             axios.post(url, _this.tools).then(function (result) {
                 if (result.data.flag === true) {
                     alert("工具保存成功!");
-                } else {
-                    alert("工具保存失败 请联系网页最下方管理员");
+                    if (confirm("确认要跳转列表页么") === true) {
+                        location.href("index.html");
+                    }
                 }
             }).catch(function (err) {
                 console.log(err);

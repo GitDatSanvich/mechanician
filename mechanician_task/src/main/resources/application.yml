@@ -22,7 +22,7 @@ spring:
         max-wait: -1
         max-idle: 0
         min-idle: 0
-    timeout: 5
+    timeout: 5000
 eureka:
   client:
     service-url:

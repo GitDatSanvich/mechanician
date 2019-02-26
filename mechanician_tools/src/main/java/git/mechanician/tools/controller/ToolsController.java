@@ -47,9 +47,14 @@ public class ToolsController {
 	 */
 	@RequestMapping(value="/{id}",method= RequestMethod.GET)
 	public Result findByTaskId(@PathVariable String id) {
-		List<Tools> toolsList = toolsService.findByTaskId(id);
-		Tools tools = toolsList.get(0);
-		return new Result(true, StatusCode.OK, "查询成功", tools);
+		Tools tool = toolsService.findByTaskId(id);
+		if (tool != null) {
+			return new Result(true, StatusCode.OK, "查询成功", tool);
+		} else {
+			Tools tools = new Tools();
+			tools.setTools("这项任务没有保存工具呢~");
+			return new Result(true, StatusCode.OK, "查询成功", tools);
+		}
 	}
 
 	/**

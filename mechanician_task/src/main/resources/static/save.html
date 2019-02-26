@@ -119,8 +119,11 @@
             <div style="float: left; position: relative;left: 50%;">
                 <div style="position: relative;left: -50%;">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default" title="保存" @click="saveAllTask()"><i
-                                class="fa fa-refresh"></i> 保存
+                        <button type="button" class="btn btn-default" title="保存" @click="saveTask()"><i
+                                class="fa fa-refresh"></i>保存任务(前端技术不会,保存任务,<strong>先</strong>点这个)
+                        </button>
+                        <button type="button" class="btn btn-default" title="保存" @click="saveTools()"><i
+                                class="fa fa-refresh"></i> 保存工具(保存任务成功之后再保存工具,点这个)
                         </button>
                     </div>
                 </div>
