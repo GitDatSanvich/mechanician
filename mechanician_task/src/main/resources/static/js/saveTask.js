@@ -55,15 +55,12 @@ new Vue({
             var _this = this;
             var url = "task/saveTools";
             axios.post(url, _this.tools).then(function (result) {
-                if (result.data.flag === true) {
-                    alert("工具保存成功!");
-                    if (confirm("确认要跳转列表页么") === true) {
-                        location.href("index.html");
-                    }
+                alert("工具保存成功!");
+                if (confirm("要跳转到首页么")) {
+                    window.location.href = "index.html";
                 }
             }).catch(function (err) {
                 console.log(err);
-                alert("任务工具失败!")
             });
         }
     },

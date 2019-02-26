@@ -37,7 +37,7 @@ public class TaskController {
 
     @RequestMapping(value = "/saveTools", method = RequestMethod.POST)
     public Result addTools(@RequestBody Tools tools) {
-        String tool = tools.getTools() + ":" + tools.getTask();
+        String tool = tools.getTools() + ":" + tools.getId();
         rabbitTemplate.convertAndSend("test", tool);
         System.out.println("cunrule");
         return new Result(true, StatusCode.OK, "增加成功");
