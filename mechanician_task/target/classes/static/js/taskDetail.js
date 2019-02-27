@@ -38,6 +38,9 @@ new Vue({
             }).catch(function (err) {
                 console.log(err);
             });
+        },
+        update: function (id) {
+            window.location.href = "save.html?Id=" + id;
         }
     },
 
