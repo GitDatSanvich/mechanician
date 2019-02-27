@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/taskDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/taskDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/mechanical.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/mechanical.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +18,7 @@
     <ignored path="$PROJECT_DIR$/mechanician_common/target/" />
     <ignored path="$PROJECT_DIR$/mechanician_tools/target/" />
     <ignored path="$PROJECT_DIR$/mechanician_eureka/target/" />
+    <ignored path="$PROJECT_DIR$/mechanician_handOver/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/save.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2332">
-              <caret line="106" column="59" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="59" />
+            <state relative-caret-position="2002">
+              <caret line="91" column="70" selection-start-line="91" selection-start-column="62" selection-end-line="91" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -42,17 +44,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="924">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="50" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js">
+        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+            <state relative-caret-position="398">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_handOver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -60,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
+            <state relative-caret-position="1650">
+              <caret line="93" column="36" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -122,7 +172,6 @@
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/user.html" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Task.java" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/user.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mechanician_eureka/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" />
@@ -134,8 +183,6 @@
         <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/pojo/Tools.java" />
         <option value="$PROJECT_DIR$/mechanician_common/src/main/java/entity/Result.java" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/dao/TaskDao.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Tools.java" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/ToolsClient.java" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java" />
@@ -151,8 +198,13 @@
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/detail.html" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/save.html" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_handOver/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java" />
       </list>
     </option>
   </component>
@@ -186,23 +238,14 @@
           <item name="mechanician" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mechanician_task" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mechanician_task" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="162" />
-    <option name="y" value="-20" />
-    <option name="width" value="1434" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1364" />
     <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -223,62 +266,47 @@
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_handOver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_handOver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_handOver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_handOver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_handOver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="cilent" type="462c0819:PsiDirectoryNode" />
+              <item name="handOver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_handOver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -286,66 +314,7 @@
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
               <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
@@ -367,7 +336,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551174066400" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551251879382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -416,6 +385,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mechanician_handOver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="git.mechanician.handOver.HandOverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mechanician_eureka" />
       <extension name="coverage">
@@ -458,6 +434,7 @@
       <item itemvalue="Spring Boot.TaskApplication" />
       <item itemvalue="Spring Boot.ToolsApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -490,7 +467,8 @@
       <workItem from="1551148703425" duration="2148000" />
       <workItem from="1551153442081" duration="3858000" />
       <workItem from="1551157334794" duration="16040000" />
-      <workItem from="1551241738161" duration="446000" />
+      <workItem from="1551241738161" duration="3237000" />
+      <workItem from="1551250591083" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551030881945</created>
@@ -639,17 +617,30 @@
       <option name="project" value="LOCAL" />
       <updated>1551173225834</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="改正了工具不能回显的Bug">
+      <created>1551242218262</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551242218262</updated>
+    </task>
+    <task id="LOCAL-00023" summary="添加了按章节查询的功能">
+      <created>1551245434327</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1551245434327</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99386000" />
+    <option name="totallyTimeSpent" value="103383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.15991472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.1130064" />
       <window_info id="Structure" order="1" sideWeight="0.5007949" side_tool="true" weight="0.2153518" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -663,7 +654,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.4989339" visible="true" weight="0.19305857" />
+      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.4989339" visible="true" weight="0.16052061" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -676,7 +667,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49820143" visible="true" weight="0.12686567" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49820143" visible="true" weight="0.21588486" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -775,7 +766,8 @@
     <MESSAGE value="整合FeignClients" />
     <MESSAGE value="添加了 针对Redis,RabbitMQ的使用" />
     <MESSAGE value="改正了工具不能回显的Bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="改正了工具不能回显的Bug" />
+    <MESSAGE value="添加了按章节查询的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了按章节查询的功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -799,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -921,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -935,23 +913,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
@@ -1051,20 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1072,9 +1022,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="121" column="75" lean-forward="true" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="500">
           <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1092,39 +1063,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/save.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="106" column="59" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="59" />
+        <state relative-caret-position="2002">
+          <caret line="91" column="70" selection-start-line="91" selection-start-column="62" selection-end-line="91" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="50" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
+        <state relative-caret-position="1650">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="176">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_handOver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

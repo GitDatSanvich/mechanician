@@ -85,8 +85,8 @@
             </div>
             <div class="box-tools pull-right">
                 <div class="has-feedback">
-                    搜索 章节号:<input type="text">-<input type="text">-<input type="text">
-                    <button type="button">查询</button>
+                    搜索 章节号:<input type="text" v-model="chapter.chapter1">-<input type="text" v-model="chapter.chapter2">-<input type="text" v-model="chapter.chapter3">
+                    <button type="button" @click="toSearch()">查询</button>
                 </div>
             </div>
             <!--工具栏/-->
