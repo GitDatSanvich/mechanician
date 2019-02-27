@@ -43,7 +43,6 @@ new Vue({
             var _this = this;
             var url = "task";
             axios.post(url, _this.task).then(function (result) {
-
                 _this.taskId = result.data.data;
                 alert("任务保存成功");
             }).catch(function (err) {
