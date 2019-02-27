@@ -3,9 +3,11 @@ new Vue({
     data:{
         task:{},
         taskList:[],
-        chapter1:{},
-        chapter2:{},
-        chapter3:{}
+        chapter: {
+            chapter1: "",
+            chapter2: "",
+            chapter3: ""
+        }
     },
     methods:{
         findAll:function(){
@@ -26,6 +28,15 @@ new Vue({
         },
         toUpdate: function (id) {
             window.open("save.html?Id=" + id);
+        },
+        toSearch: function () {
+            var _this = this;
+            var url = "task/search";
+            axios.post(url, _this.chapter).then(function (result) {
+                _this.taskList = result.data.data;
+            }).catch(function (err) {
+                console.log(err);
+            });
         }
     },
     created:function () {

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mechanician_common" />
         <module name="mechanician_eureka" />
+        <module name="mechanician_handOver" />
         <module name="mechanician_task" />
         <module name="mechanician_tools" />
       </profile>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mechanician_common" options="-parameters" />
       <module name="mechanician_eureka" options="-parameters" />
+      <module name="mechanician_handOver" options="-parameters" />
       <module name="mechanician_task" options="-parameters" />
       <module name="mechanician_tool" options="-parameters" />
       <module name="mechanician_tools" options="-parameters" />
