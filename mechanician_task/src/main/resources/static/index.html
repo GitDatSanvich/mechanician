@@ -85,7 +85,8 @@
             </div>
             <div class="box-tools pull-right">
                 <div class="has-feedback">
-                    搜索 章节号:<input type="text" v-model="chapter.chapter1">-<input type="text" v-model="chapter.chapter2">-<input
+                    按章节号搜索 :<input type="text" v-model="chapter.chapter1">-<input type="text"
+                                                                                  v-model="chapter.chapter2">-<input
                         type="text" v-model="chapter.chapter3">
                     <button type="button" @click="toSearch()">查询</button>
                 </div>
@@ -122,6 +123,8 @@
                 </tr>
                 </tbody>
             </table>
+
+            <div style="color: red"><strong>交接项</strong></div>
             <!--数据列表/-->
             <!--分页-->
         </div>
