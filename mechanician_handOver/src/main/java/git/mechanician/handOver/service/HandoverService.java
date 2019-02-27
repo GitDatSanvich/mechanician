@@ -43,18 +43,10 @@ public class HandoverService {
      */
     public List<Handover> findAll() {
         long time = new Date().getTime();
-        long qureTime = time - (1000 * 60 * 60 * 24 * 3);
+        long enableTime = time - (1000 * 60 * 60 * 24 * 3);
         Date date = new Date();
-        date.setTime(qureTime);
-        List<Handover> dateAfter = handoverDao.findAllByDateAfter(date);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yy年MM月dd日 HH:mm:ss");
-        List<Handover> handoverList = new ArrayList<>();
-        for (Handover handover : dateAfter) {
-            String format = simpleDateFormat.format(handover.getDate());
-            handover.setDates(format);
-            handoverList.add(handover);
-        }
-        return handoverList;
+        date.setTime(enableTime);
+        return handoverDao.findAllByDateAfter(date);
     }
 
     /**
@@ -100,6 +92,11 @@ public class HandoverService {
      */
     public void add(Handover handover) {
         handover.setId(idWorker.nextId() + "");
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yy年MM月dd日 HH:mm:ss");
+        String format = simpleDateFormat.format(date);
+        handover.setDate(date);
+        handover.setDates(format);
         handoverDao.save(handover);
     }
 

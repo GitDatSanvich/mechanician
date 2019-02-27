@@ -56,6 +56,10 @@ new Vue({
             }).catch(function (err) {
                 console.log(err);
             });
+        },
+        toHandOver: function () {
+            window.open("HandOver.html");
+
         }
     },
     created:function () {

@@ -5,6 +5,7 @@ import entity.Result;
 import entity.StatusCode;
 import git.mechanician.task.cilent.HandOverClient;
 import git.mechanician.task.cilent.ToolsClient;
+import git.mechanician.task.pojo.Handover;
 import git.mechanician.task.pojo.Task;
 import git.mechanician.task.pojo.Tools;
 import git.mechanician.task.service.TaskService;
@@ -36,6 +37,16 @@ public class TaskController {
     private RedisTemplate redisTemplate;
     @Autowired
     private HandOverClient handOverClient;
+
+    @RequestMapping(value = "/handOver", method = RequestMethod.POST)
+    public Result addHandOver(@RequestBody Map map) {
+        String main = (String) map.get("main");
+        System.err.println(main);
+
+        Handover handover = new Handover();
+        handover.setMain(main);
+        return handOverClient.add(handover);
+    }
 
     @RequestMapping(value = "/handOver/{id}", method = RequestMethod.GET)
     public Result deleteHandOver(@PathVariable("id") String id) {

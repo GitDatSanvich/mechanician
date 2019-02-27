@@ -124,6 +124,9 @@
             </table>
 
             <div style="color: red"><h4><strong>交接项(保留三天)</strong></h4></div>
+            <button type="button" class="btn btn-default" title="新建交接" data-toggle="modal"
+                    @click="toHandOver()"><i class="fa fa-file-o"></i>新建交接
+            </button>
             <table id="handOverList" class="table table-bordered table-striped table-hover dataTable">
                 <thead>
                 <tr>
@@ -143,10 +146,10 @@
                 </tr>
                 </tbody>
             </table>
+            <!-- 数据表格 /-->
         </div>
-        <!-- 数据表格 /-->
+        <!-- /.box-body -->
     </div>
-    <!-- /.box-body -->
 </section>
 <script src="js/vuejs-2.5.16.js"></script>
 <script src="js/axios-0.18.0.js"></script>

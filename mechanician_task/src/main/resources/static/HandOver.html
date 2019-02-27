@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,102 +57,51 @@
     <script src="plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
     <script src="plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 </head>
-<body class="hold-transition skin-red sidebar-mini">
-<!-- .box-body -->
-<!--TODO 分页-->
-
-<div class="box-header with-border">
-    <h3 class="box-title">川航北京机务任务经验分享</h3>
-</div>
-<section class="content" id="app">
-    <div class="box-body">
-
-        <!-- 数据表格 -->
-        <div class="table-box">
-
-            <!--工具栏-->
-            <div class="pull-left">
-                <div class="form-group form-inline">
+<body>
+<div id="app">
+    <div style="height: 30px;">
+        <div style="float: left; position: relative;left: 50%;">
+            <div style="position: relative;left: -50%;">
+                <h1 style="color: #e62929;">不作为任何维修依据</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style="height: 30px;">
+        <div style="float: left; position: relative;left: 50%;">
+            <div style="position: relative;left: -50%;">
+                <h1 style="color: #e62929;"><strong>为了功能完善但是请认真填写</strong></h1>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="box-body">
+            <table class="table table-bordered table-striped table-hover dataTable" ALIGN="CENTER">
+                <thead>
+                <tr>
+                    <th class="sort-highlight" width="150px">交接事宜</th>
+                    <td><textarea v-model="handOver.main" placeholder="把要交接的东西写进去" rows="10" cols="100"></textarea></td>
+                </tr>
+                </thead>
+            </table>
+        </div>
+        <div style="height: 30px;">
+            <div style="float: left; position: relative;left: 50%;">
+                <div style="position: relative;left: -50%;">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default" title="新建" data-toggle="modal"
-                                @click="toSave()"><i class="fa fa-file-o"></i> 新建
-                        </button>
-                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
-                                class="fa fa-refresh"></i> 刷新
+                        <button type="button" class="btn btn-default" title="保存" @click="saveHandOver()"><i
+                                class="fa fa-refresh"></i>保存交接
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="box-tools pull-right">
-                <div class="has-feedback">
-                    按章节号搜索 :<input type="text" v-model="chapter.chapter1">-<input type="text"
-                                                                                  v-model="chapter.chapter2">-<input
-                        type="text" v-model="chapter.chapter3">
-                    <button type="button" @click="toSearch()">查询</button>
-                </div>
-            </div>
-            <!--工具栏/-->
-
-            <!--数据列表-->
-            <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
-                <thead>
-                <tr>
-                    <th class="" style="padding-right:0px">
-                    </th>
-                    <th class="sorting_asc">章节号</th>
-                    <th class="sorting">名称</th>
-                    <th class="sorting">作者</th>
-                    <th class="text-center">操作</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr v-for="task in taskList">
-                    <td><input type="checkbox"></td>
-                    <td>{{task.chapter1}}-{{task.chapter2}}-{{task.chapter3}}</td>
-                    <td>{{task.title}}</td>
-                    <td>{{task.writer}}</td>
-                    <td class="text-center">
-                        <a @click="toDetail(task.id)">
-                            <span>查看</span>
-                        </a>
-                        <a @click="toUpdate(task.id)">
-                            <span>更改</span>
-                        </a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-
-            <div style="color: red"><h4><strong>交接项(保留三天)</strong></h4></div>
-            <button type="button" class="btn btn-default" title="新建交接" data-toggle="modal"
-                    @click="toHandOver()"><i class="fa fa-file-o"></i>新建交接
-            </button>
-            <table id="handOverList" class="table table-bordered table-striped table-hover dataTable">
-                <thead>
-                <tr>
-                    <th class="text-center" width="200">交接生成时间</th>
-                    <th class="text-center">交接内容</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr v-for="handOver in handOverList">
-                    <td>{{handOver.dates}}</td>
-                    <td>{{handOver.main}}</td>
-                    <td class="text-center">
-                        <a @click="toDelete(handOver.id)">
-                            <span>删除</span>
-                        </a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-            <!-- 数据表格 /-->
         </div>
-        <!-- /.box-body -->
     </div>
-</section>
+</div>
+</body>
 <script src="js/vuejs-2.5.16.js"></script>
 <script src="js/axios-0.18.0.js"></script>
-<script src="js/mechanical.js"></script>
-</body>
+<script src="js/saveHandOver.js"></script>
 </html>
