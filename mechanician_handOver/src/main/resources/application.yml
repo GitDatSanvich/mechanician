@@ -1,0 +1,17 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: mechanician-handOver #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.105.148.211:3306/mechanician_handover?useSSL=false&useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
