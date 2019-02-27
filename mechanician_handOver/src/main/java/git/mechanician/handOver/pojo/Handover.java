@@ -4,14 +4,13 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
-
 /**
  * 实体类
- *
  * @author Administrator
+ *
  */
 @Entity
-@Table(name = "mechanician_handover")
+@Table(name = "handover")
 public class Handover implements Serializable {
 
     @Id
@@ -20,6 +19,7 @@ public class Handover implements Serializable {
 
     private java.util.Date date;//建立时间
     private String main;//交接内容
+    private String dates;//建立时间字符串格式
 
 
     public String getId() {
@@ -46,5 +46,11 @@ public class Handover implements Serializable {
         this.main = main;
     }
 
+    public String getDates() {
+        return dates;
+    }
 
+    public void setDates(String dates) {
+        this.dates = dates;
+    }
 }

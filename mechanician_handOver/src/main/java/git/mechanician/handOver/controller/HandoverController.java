@@ -108,8 +108,8 @@ public class HandoverController {
      *
      * @param id
      */
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public Result delete(@PathVariable String id) {
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+    public Result delete(@PathVariable("id") String id) {
         handoverService.deleteById(id);
         return new Result(true, StatusCode.OK, "删除成功");
     }

@@ -98,7 +98,6 @@
                 <thead>
                 <tr>
                     <th class="" style="padding-right:0px">
-
                     </th>
                     <th class="sorting_asc">章节号</th>
                     <th class="sorting">名称</th>
@@ -124,9 +123,26 @@
                 </tbody>
             </table>
 
-            <div style="color: red"><strong>交接项</strong></div>
-            <!--数据列表/-->
-            <!--分页-->
+            <div style="color: red"><h4><strong>交接项(保留三天)</strong></h4></div>
+            <table id="handOverList" class="table table-bordered table-striped table-hover dataTable">
+                <thead>
+                <tr>
+                    <th class="text-center" width="200">交接生成时间</th>
+                    <th class="text-center">交接内容</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr v-for="handOver in handOverList">
+                    <td>{{handOver.dates}}</td>
+                    <td>{{handOver.main}}</td>
+                    <td class="text-center">
+                        <a @click="toDelete(handOver.id)">
+                            <span>删除</span>
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
         <!-- 数据表格 /-->
     </div>

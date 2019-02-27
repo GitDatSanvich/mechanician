@@ -3,6 +3,7 @@ package git.mechanician.task.controller;
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
+import git.mechanician.task.cilent.HandOverClient;
 import git.mechanician.task.cilent.ToolsClient;
 import git.mechanician.task.pojo.Task;
 import git.mechanician.task.pojo.Tools;
@@ -13,7 +14,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -34,6 +34,18 @@ public class TaskController {
     private RabbitTemplate rabbitTemplate;
     @Autowired
     private RedisTemplate redisTemplate;
+    @Autowired
+    private HandOverClient handOverClient;
+
+    @RequestMapping(value = "/handOver/{id}", method = RequestMethod.GET)
+    public Result deleteHandOver(@PathVariable("id") String id) {
+        return handOverClient.delete(id);
+    }
+
+    @RequestMapping(value = "handOver", method = RequestMethod.GET)
+    public Result findHandOver() {
+        return handOverClient.findAll();
+    }
 
     @RequestMapping(value = "/saveTools", method = RequestMethod.POST)
     public Result addTools(@RequestBody Tools tools) {
@@ -42,6 +54,7 @@ public class TaskController {
         System.out.println("cunrule");
         return new Result(true, StatusCode.OK, "增加成功");
     }
+
     /**
      * 查询全部数据
      *
@@ -93,6 +106,7 @@ public class TaskController {
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
     public Result findSearch(@RequestBody Map searchMap) {
+        searchMap.put("enable", "1");
         return new Result(true, StatusCode.OK, "查询成功", taskService.findSearch(searchMap));
     }
 

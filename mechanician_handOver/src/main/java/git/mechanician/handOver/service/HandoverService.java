@@ -1,9 +1,7 @@
 package git.mechanician.handOver.service;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -44,9 +42,20 @@ public class HandoverService {
      * @return
      */
     public List<Handover> findAll() {
-        return handoverDao.findAll();
+        long time = new Date().getTime();
+        long qureTime = time - (1000 * 60 * 60 * 24 * 3);
+        Date date = new Date();
+        date.setTime(qureTime);
+        List<Handover> dateAfter = handoverDao.findAllByDateAfter(date);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yy年MM月dd日 HH:mm:ss");
+        List<Handover> handoverList = new ArrayList<>();
+        for (Handover handover : dateAfter) {
+            String format = simpleDateFormat.format(handover.getDate());
+            handover.setDates(format);
+            handoverList.add(handover);
+        }
+        return handoverList;
     }
-
 
     /**
      * 条件查询+分页
@@ -132,6 +141,10 @@ public class HandoverService {
                 // 交接内容
                 if (searchMap.get("main") != null && !"".equals(searchMap.get("main"))) {
                     predicateList.add(cb.like(root.get("main").as(String.class), "%" + (String) searchMap.get("main") + "%"));
+                }
+                // 建立时间字符串格式
+                if (searchMap.get("dates") != null && !"".equals(searchMap.get("dates"))) {
+                    predicateList.add(cb.like(root.get("dates").as(String.class), "%" + (String) searchMap.get("dates") + "%"));
                 }
 
                 return cb.and(predicateList.toArray(new Predicate[predicateList.size()]));
