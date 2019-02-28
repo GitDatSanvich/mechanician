@@ -1,5 +1,5 @@
 new Vue({
-    el:"#app",
+    el: "#app",
     data: {
         task: {},
         taskList: [],
@@ -10,8 +10,8 @@ new Vue({
         },
         handOverList: []
     },
-    methods:{
-        findAll:function(){
+    methods: {
+        findAll: function () {
             var _this = this;
             var url = "task";
             axios.get(url).then(function (result) {
@@ -21,7 +21,7 @@ new Vue({
                 console.log(err);
             });
         },
-        toDetail:function (id) {
+        toDetail: function (id) {
             window.open("detail.html?Id=" + id);
         },
         toSave: function () {
@@ -49,20 +49,23 @@ new Vue({
             });
         },
         toDelete: function (id) {
-            var _this = this;
-            var url = "task/handOver/" + id;
-            axios.get(url).then(function (result) {
-                window.location.reload();
-            }).catch(function (err) {
-                console.log(err);
-            });
+            if (confirm("真的要删除么？这条数据删除了无法恢复（叫爸爸也不好使）")) {
+                var _this = this;
+                var url = "task/handOver/" + id;
+                axios.get(url).then(function (result) {
+
+                    window.location.reload();
+                }).catch(function (err) {
+                    console.log(err);
+                });
+            }
         },
         toHandOver: function () {
             window.open("HandOver.html");
 
         }
     },
-    created:function () {
+    created: function () {
         this.findAll();
         this.findHandOver();
     }
