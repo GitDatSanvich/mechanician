@@ -12,9 +12,9 @@ new Vue({
             axios.post(url, _this.handOver).then(function (result) {
                 alert("保存成功");
                 if (confirm("跳转首页还是再写一个?")) {
-                    window.location.href = "index.html";
-                } else {
                     window.location.reload();
+                } else {
+                    window.location.href = "index.html";
                 }
             }).catch(function (err) {
                 console.log(err);

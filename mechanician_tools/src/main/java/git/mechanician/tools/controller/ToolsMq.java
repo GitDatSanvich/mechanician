@@ -26,7 +26,7 @@ public class ToolsMq {
 
     @RabbitHandler
     public void ToolsSaver(String message) {
-        String tools = message.substring(0, message.indexOf(":") - 1);
+        String tools = message.substring(0, message.indexOf(":"));
         String toolId = message.substring(message.indexOf(":") + 1);
         String taskId = null;
         try {
