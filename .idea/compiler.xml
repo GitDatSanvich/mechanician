@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mechanician_common" />
         <module name="mechanician_eureka" />
         <module name="mechanician_handOver" />
         <module name="mechanician_task" />
@@ -14,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mechanician_common" target="1.8" />
       <module name="mechanician_tool" target="1.8" />
     </bytecodeTargetLevel>
   </component>
