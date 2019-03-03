@@ -14,14 +14,7 @@ import org.springframework.web.WebApplicationInitializer;
  **/
 @SpringBootApplication
 @EnableEurekaServer
-public class EurekaApplication extends SpringBootServletInitializer implements WebApplicationInitializer {
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-
-        return application.sources(EurekaApplication.class);
-    }
-
+public class EurekaApplication {
     public static void main(String[] args) {
         SpringApplication.run(EurekaApplication.class);
     }

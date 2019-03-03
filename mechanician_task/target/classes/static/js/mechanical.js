@@ -62,7 +62,6 @@ new Vue({
         },
         toHandOver: function () {
             window.open("HandOver.html");
-
         }
     },
     created: function () {
