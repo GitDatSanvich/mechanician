@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mechanician_eureka" />
         <module name="mechanician_handOver" />
-        <module name="mechanician_task" />
         <module name="mechanician_tools" />
+        <module name="mechanician_eureka" />
+        <module name="mechanician_task" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
