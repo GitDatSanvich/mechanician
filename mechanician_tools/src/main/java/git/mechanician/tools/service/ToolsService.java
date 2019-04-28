@@ -15,7 +15,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import util.IdWorker;
+import utils.IdWorker;
 
 import git.mechanician.tools.dao.ToolsDao;
 import git.mechanician.tools.pojo.Tools;
