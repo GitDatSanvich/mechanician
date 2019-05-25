@@ -1,8 +1,6 @@
 package git.mechanician.task.controller;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
+import cn.itcast.common.Result;
 import git.mechanician.task.cilent.HandOverClient;
 import git.mechanician.task.cilent.ToolsClient;
 import git.mechanician.task.pojo.Handover;
