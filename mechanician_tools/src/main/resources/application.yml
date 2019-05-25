@@ -13,6 +13,8 @@ spring:
     show-sql: true
   rabbitmq:
     host: 39.105.148.211
+    username: user
+    password: password
   redis:
     host: 39.105.148.211
     port: 6379

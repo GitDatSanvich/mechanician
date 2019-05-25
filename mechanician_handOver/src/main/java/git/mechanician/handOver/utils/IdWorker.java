@@ -1,4 +1,4 @@
-package utils;
+package git.mechanician.handOver.utils;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;

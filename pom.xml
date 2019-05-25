@@ -18,6 +18,7 @@
         <module>mechanician_tools</module>
         <module>mechanician_eureka</module>
         <module>mechanician_handOver</module>
+        <module>mechanician_zuul</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

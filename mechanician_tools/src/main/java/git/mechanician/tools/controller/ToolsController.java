@@ -2,6 +2,9 @@ package git.mechanician.tools.controller;
 import java.util.List;
 import java.util.Map;
 
+import git.mechanician.tools.entity.PageResult;
+import git.mechanician.tools.entity.Result;
+import git.mechanician.tools.entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -14,9 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import git.mechanician.tools.pojo.Tools;
 import git.mechanician.tools.service.ToolsService;
 
-import entity.PageResult;
-import entity.Result;
-import entity.StatusCode;
 /**
  * 控制器层
  * @author Administrator
@@ -37,7 +37,7 @@ public class ToolsController {
 	 */
 	@RequestMapping(method= RequestMethod.GET)
 	public Result findAll(){
-		return new Result(true,StatusCode.OK,"查询成功",toolsService.findAll());
+		return new Result(true, StatusCode.OK, "查询成功", toolsService.findAll());
 	}
 	
 	/**

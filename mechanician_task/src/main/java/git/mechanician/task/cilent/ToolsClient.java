@@ -1,6 +1,6 @@
 package git.mechanician.task.cilent;
 
-import entity.Result;
+import git.mechanician.task.entity.Result;
 import git.mechanician.task.pojo.Tools;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,7 @@
 package git.mechanician.task.controller;
 
-import cn.itcast.common.Result;
+import git.mechanician.task.entity.Result;
+import git.mechanician.task.entity.StatusCode;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

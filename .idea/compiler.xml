@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mechanician_handOver" />
+        <module name="mechanician_zuul" />
         <module name="mechanician_tools" />
         <module name="mechanician_eureka" />
         <module name="mechanician_task" />
@@ -25,6 +26,7 @@
       <module name="mechanician_task" options="-parameters" />
       <module name="mechanician_tool" options="-parameters" />
       <module name="mechanician_tools" options="-parameters" />
+      <module name="mechanician_zuul" options="-parameters" />
     </option>
   </component>
 </project>

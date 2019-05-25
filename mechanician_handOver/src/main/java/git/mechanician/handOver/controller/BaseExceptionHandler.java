@@ -1,7 +1,8 @@
 package git.mechanician.handOver.controller;
 
-import entity.Result;
-import entity.StatusCode;
+
+import git.mechanician.handOver.entity.Result;
+import git.mechanician.handOver.entity.StatusCode;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
