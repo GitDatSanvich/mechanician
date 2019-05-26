@@ -1,0 +1,21 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: mechanician-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+zuul:
+  routes:
+    feign-service:
+      path: /MECHANICIAN-TASK/**
+      serviceId: MECHANICIAN-TASK
+    ribbon-service:
+      path: /MECHANICIAN-TASK/**
+      serviceId: MECHANICIAN-TASK
+  host:
+    connect-timeout-millis: 50000
+    max-total-connections: 200
+    socket-timeout-millis: 50000
