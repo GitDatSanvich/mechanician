@@ -41,10 +41,23 @@ new Vue({
         },
         update: function (id) {
             window.location.href = "save.html?Id=" + id;
+        },
+        checkLogin: function () {
+            var _this = this;
+            var url = "task/checkLogin";
+            axios.get(url).then(function (result) {
+                console.log(result);
+                if (result.data.flag !== true) {
+                    window.location.href = "userLogin.html"
+                }
+            }).catch(function (err) {
+                console.log(err);
+            });
         }
     },
 
     created: function () {
+        this.checkLogin();
         var Id = location.search.substring(4, location.search.length);
         this.findById(Id);
         this.findtoolsByTaskId(Id);

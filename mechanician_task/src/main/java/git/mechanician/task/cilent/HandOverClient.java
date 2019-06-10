@@ -8,12 +8,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.concurrent.ScheduledExecutorService;
+
 /**
  * @ClassName HandOverClient
  * @Author GitDatSanvich
  * @Date 2019/2/27 17:01
  **/
-@FeignClient("mechanician-handOver")
+@FeignClient(value = "mechanician-handOver")
 public interface HandOverClient {
     @RequestMapping(value = "/handover", method = RequestMethod.GET)
     public Result findAll();

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="整体修改 功能更变">
+    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +13,16 @@
     <ignored path="$PROJECT_DIR$/mechanician_eureka/target/" />
     <ignored path="$PROJECT_DIR$/mechanician_handOver/target/" />
     <ignored path="$PROJECT_DIR$/mechanician_zuul/target/" />
+    <ignored path="$PROJECT_DIR$/mechanician_config/target/" />
+    <ignored path="$PROJECT_DIR$/mechanician_user/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mechanician$EurekaApplication.ic" NAME="EurekaApplication Coverage Results" MODIFIED="1551071424917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -50,69 +52,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/userLogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="506">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java">
+        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/signIn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2178">
+              <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_zuul/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/signIn.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2357#2358#0" expanded="true" />
-                <element signature="e#2408#2409#0" expanded="true" />
-                <element signature="e#2488#2489#0" expanded="true" />
-                <element signature="e#2573#2574#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/ToolsMq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="375">
+              <caret line="237" column="48" selection-start-line="237" selection-start-column="48" selection-end-line="237" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,33 +87,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/SHA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mechanician_zuul/src/main/java/git/mechician/zuul/MacZuulApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="550">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            <state relative-caret-position="308">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1562">
+              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2508">
+              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3366#3367#0" expanded="true" />
+                <element signature="e#3412#3413#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,7 +158,13 @@
       <find>deleteByTaskId</find>
       <find>findByTaskId</find>
       <find>Id</find>
+      <find>handover</find>
+      <find>Handover</find>
     </findStrings>
+    <replaceStrings>
+      <replace>users</replace>
+      <replace>Users</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -206,57 +199,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/SmsSender.java" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/SendSmsFactory.java" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/SendMailFactory.java" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/DitSender.java" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/SendGitsanvichFactory.java" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/Task.java" />
-        <option value="$PROJECT_DIR$/mechanician_eureka/src/main/java/git/mechanician/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/util/IdWorker.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/pom.xml" />
-        <option value="$PROJECT_DIR$/mechanician_handOver/pom.xml" />
-        <option value="$PROJECT_DIR$/mechanician_zuul/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mechanician_zuul/src/main/java/git/mechician/zuul/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/IdWorker.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/CookieUtil.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/entity/Result.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/entity/PageResult.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/entity/StatusCode.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/BaseExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/ToolsClient.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/HandOverClient.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/CookieUtil.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/HttpClient.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/IdWorker.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/service/ToolsService.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/entity/PageResult.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/entity/Result.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/entity/StatusCode.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/BaseExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/ToolsController.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/utils/CookieUtil.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/utils/HttpClient.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/utils/IdWorker.java" />
-        <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/entity/PageResult.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/entity/Result.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/entity/StatusCode.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/controller/BaseExceptionHandler.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/controller/HandoverController.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/service/HandoverService.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/HttpClient.java" />
         <option value="$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mechanician_zuul/src/main/java/git/mechician/zuul/MacZuulApplication.java" />
         <option value="$PROJECT_DIR$/mechanician_zuul/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/HandOverClient.java" />
+        <option value="$PROJECT_DIR$/mechanician_config/src/main/java/git/mechanician/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_config/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/MechanicianUserApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/IdWorker.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/Result.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveHandOver.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/user.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/userLogin.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/userLogin.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_task/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/signIn.html" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/SHA.java" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/UserClient.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/signIn.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" />
       </list>
     </option>
   </component>
@@ -275,36 +268,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mechanician_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mechanician_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mechanician_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mechanician_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="312" />
-    <option name="y" value="-11" />
-    <option name="width" value="1443" />
-    <option name="height" value="982" />
+    <option name="x" value="226" />
+    <option name="y" value="-9" />
+    <option name="width" value="1253" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -314,6 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,60 +337,44 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="cilent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
               <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
-              <item name="mechanician_zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -427,19 +384,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553087030724" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="git.mechanician.user.pojo" />
       <recent name="git.mechanician.task.pojo" />
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\develop\frameWork\mechanician\mechanician_task\src\main\resources\static\js" />
       <recent name="F:\develop\frameWork\mechanician\mechanician_task\src\main\resources\static" />
+      <recent name="F:\develop\frameWork\mechanician\mechanician_user\src\main\resources" />
+      <recent name="F:\develop\frameWork\mechanician\mechanician_user\src\main\java\git\mechanician\user" />
       <recent name="F:\develop\frameWork\mechanician\mechanician_tools\src\main\java\git\mechanician\tools\pojo" />
     </key>
   </component>
@@ -461,7 +425,7 @@
     </option>
     <option name="contentProportion" value="0.3377743" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.mechanician.eureka.Task" />
       <module name="mechanician_eureka" />
@@ -484,6 +448,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mechanician_config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="git.mechanician.config.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -533,6 +504,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mechanician_user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="git.mechanician.user.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mechanician_zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="git.mechician.zuul.MacZuulApplication" />
@@ -547,6 +526,8 @@
       <item itemvalue="Spring Boot.HandOverApplication" />
       <item itemvalue="Spring Boot.TaskApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
     </list>
     <recent_temporary>
@@ -629,7 +610,19 @@
       <workItem from="1557651555576" duration="1819000" />
       <workItem from="1558751420016" duration="13597000" />
       <workItem from="1558796778301" duration="1422000" />
-      <workItem from="1558838013708" duration="9864000" />
+      <workItem from="1558838013708" duration="12285000" />
+      <workItem from="1558854832166" duration="979000" />
+      <workItem from="1559004535593" duration="12493000" />
+      <workItem from="1559053398884" duration="785000" />
+      <workItem from="1559090745989" duration="3665000" />
+      <workItem from="1559094953545" duration="2685000" />
+      <workItem from="1559735930883" duration="48000" />
+      <workItem from="1559736205885" duration="311000" />
+      <workItem from="1559824349714" duration="641000" />
+      <workItem from="1559871955057" duration="8305000" />
+      <workItem from="1559958250992" duration="15590000" />
+      <workItem from="1560046359787" duration="14131000" />
+      <workItem from="1560166937630" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551030881945</created>
@@ -911,17 +904,38 @@
       <option name="project" value="LOCAL" />
       <updated>1558773289699</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="添加Zuul(无用)">
+      <created>1558849736708</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1558849736708</updated>
+    </task>
+    <task id="LOCAL-00042" summary="增加了用户服务 添加了登录/用户注册功能">
+      <created>1560167287998</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167287998</updated>
+    </task>
+    <task id="LOCAL-00043" summary="增加了用户服务 添加了登录/用户注册功能">
+      <created>1560167366987</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167366987</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203264000" />
+    <option name="totallyTimeSpent" value="265615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" sideWeight="0.5007949" side_tool="true" weight="0.2153518" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -931,27 +945,28 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769938" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769938" weight="0.37706855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49769938" visible="true" weight="0.318872" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3291815" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5314685" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.4273319" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49840087" weight="0.18004338" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286334" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5314685" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.4273319" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49840087" weight="0.18004338" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.35140997" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49769938" visible="true" weight="0.28199565" />
+      <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2494577" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2489339" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49608764" visible="true" weight="0.2857143" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49608764" visible="true" weight="0.12686567" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.329718" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32942432" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.329718" />
@@ -1080,7 +1095,9 @@
     <MESSAGE value="更正了 一些Bug" />
     <MESSAGE value="在业务逻辑上进行了一些小修改" />
     <MESSAGE value="整体修改 功能更变" />
-    <option name="LAST_COMMIT_MESSAGE" value="整体修改 功能更变" />
+    <MESSAGE value="添加Zuul(无用)" />
+    <MESSAGE value="增加了用户服务 添加了登录/用户注册功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了用户服务 添加了登录/用户注册功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1091,421 +1108,430 @@
     <SUITE FILE_PATH="coverage/mechanician$ZuulApplication.ic" NAME="ZuulApplication Coverage Results" MODIFIED="1558798376157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/entity/StatusCode.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="-545">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/BaseExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/TaskController.java" />
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="198">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/IdWorker.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/entity/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="1276">
+          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/js/pages/home.js" />
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/save.html" />
+    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/service/HandoverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2684">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/userLogin.html" />
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/js/mechanical.js" />
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/js/userLogin.js" />
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/plugins/flot/jquery.flot.resize.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34-sources.jar!/javax/servlet/http/HttpSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="707" selection-start-line="707" selection-end-line="707" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="1189" column="5" lean-forward="true" selection-start-line="1189" selection-start-column="5" selection-end-line="1189" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE-sources.jar!/org/springframework/data/redis/core/BoundHashOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="117" column="19" lean-forward="true" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/ToolsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="146" column="65" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/HandOverClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/FastDFSClient.java" />
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/utils/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/pojo/Handover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/pojo/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/entity/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/entity/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/BaseExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/ToolsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/dao/ToolsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/service/ToolsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="140">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/controller/HandoverController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+        <state relative-caret-position="1936">
+          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/BaseExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="84" column="35" lean-forward="true" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/controller/BaseExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="412">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/save.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="103" column="88" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveHandOver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="75" column="9" selection-start-line="64" selection-start-column="8" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/userLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="103" column="7" selection-start-line="2" selection-end-line="103" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/entity/PageResult.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/entity/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/pojo/Handover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/service/HandoverService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/utils/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/utils/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/utils/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#3851#3866#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.8.RELEASE/spring-rabbit-2.0.8.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="471" column="16" selection-start-line="471" selection-start-column="16" selection-end-line="471" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.8.RELEASE/spring-rabbit-2.0.8.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="905" column="30" selection-start-line="905" selection-start-column="16" selection-end-line="905" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        <state relative-caret-position="666">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/controller/ToolsMq.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_handOver/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="2266">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java">
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_zuul/src/main/java/git/mechician/zuul/MacZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/IdWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/userLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/signIn.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/SHA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3366#3367#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="413">
+          <caret line="237" column="59" selection-start-line="237" selection-start-column="59" selection-end-line="237" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2488#2489#0" expanded="true" />
-            <element signature="e#2573#2574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1513,9 +1539,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mechanician_handOver</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

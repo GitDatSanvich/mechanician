@@ -12,6 +12,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_config/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_user/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

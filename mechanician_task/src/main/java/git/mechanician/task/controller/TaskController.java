@@ -2,19 +2,23 @@ package git.mechanician.task.controller;
 
 import git.mechanician.task.cilent.HandOverClient;
 import git.mechanician.task.cilent.ToolsClient;
+import git.mechanician.task.cilent.UserClient;
 import git.mechanician.task.entity.PageResult;
 import git.mechanician.task.entity.Result;
 import git.mechanician.task.entity.StatusCode;
 import git.mechanician.task.pojo.Handover;
 import git.mechanician.task.pojo.Task;
 import git.mechanician.task.pojo.Tools;
+import git.mechanician.task.pojo.Users;
 import git.mechanician.task.service.TaskService;
+import git.mechanician.task.utils.IdWorker;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 /**
@@ -37,6 +41,10 @@ public class TaskController {
     private RedisTemplate redisTemplate;
     @Autowired
     private HandOverClient handOverClient;
+    @Autowired
+    private UserClient userClient;
+    @Autowired
+    private IdWorker idWorker;
 
     @RequestMapping(value = "/handOver", method = RequestMethod.POST)
     public Result addHandOver(@RequestBody Map map) {
@@ -163,4 +171,71 @@ public class TaskController {
         return new Result(true, StatusCode.OK, "删除成功");
     }
 
+    /**
+     * 用户登录
+     *
+     * @param user
+     * @param session
+     * @return
+     */
+
+    @RequestMapping(value = "/userLogin", method = RequestMethod.POST)
+    public Result login(@RequestBody Users user, HttpSession session) {
+        Users users = userClient.login(user);
+        if (users == null) {
+            return new Result(false, StatusCode.OK, "用户名或密码错误");
+        }
+        if (users.getStatue().equals("1")) {
+            return new Result(false, StatusCode.OK, "用户待管理员审核");
+        }
+        if (users.getStatue().equals("0")) {
+            return new Result(false, StatusCode.OK, "用户未激活");
+        } else {
+            String uuid = Long.toString(idWorker.nextId());
+            System.err.println(uuid);
+            session.setAttribute("uuid", uuid);
+            session.setMaxInactiveInterval(9000);
+            redisTemplate.boundHashOps("userLogin").put(uuid + "_username", users.getUsername());
+            redisTemplate.boundHashOps("userLogin").put(uuid + "_password", users.getPassword());
+            return new Result(true, StatusCode.OK, "登陆成功");
+        }
+    }
+
+    @RequestMapping(value = "/checkLogin", method = RequestMethod.GET)
+    public Result checkLogin(HttpSession session) {
+        String uuid = (String) session.getAttribute("uuid");
+        System.err.println(uuid);
+        if (uuid != null && !uuid.equals("")) {
+            String username = (String) redisTemplate.boundHashOps("userLogin").get(uuid + "_username");
+            String password = (String) redisTemplate.boundHashOps("userLogin").get(uuid + "_password");
+            Users user = new Users();
+            user.setUsername(username);
+            user.setPassword(password);
+            Users users = userClient.checkLogin(user);
+            if (users == null || users.getUsername().equals("")) {
+                return new Result(false, StatusCode.OK, "无此用户");
+            } else {
+                Users data = new Users();
+                data.setUsername(users.getUsername());
+                return new Result(true, StatusCode.OK, "已登录", data);
+            }
+        }
+        return new Result(false, StatusCode.OK, "未登录");
+    }
+
+    @RequestMapping(value = "LogOff", method = RequestMethod.GET)
+    public Result logOff(HttpSession session) {
+        session.removeAttribute("uuid");
+        return new Result(true, StatusCode.OK, "已登出");
+    }
+
+    @RequestMapping(value = "signIn", method = RequestMethod.POST)
+    public Result signIn(@RequestBody Users users) {
+        String message = userClient.signIn(users);
+        if (message.equals("用户注册成功")) {
+            return new Result(true, StatusCode.OK, message);
+        } else {
+            return new Result(false, StatusCode.OK, message);
+        }
+    }
 }

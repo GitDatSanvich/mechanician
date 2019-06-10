@@ -1,0 +1,17 @@
+server:
+  port: 6001
+
+spring:
+  application:
+    name: mechanician-config #指定服务名
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/GitDatSanvich/MechanicianConfig
+          searchPaths: data
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka

@@ -8,7 +8,8 @@ new Vue({
             chapter2: "",
             chapter3: ""
         },
-        handOverList: []
+        handOverList: [],
+        users: {}
     },
     methods: {
         findAll: function () {
@@ -49,7 +50,7 @@ new Vue({
             });
         },
         toDelete: function (id) {
-            if (confirm("真的要删除么？这条数据删除了无法恢复（叫爸爸也不好使）")) {
+            if (confirm("真的要删除么？这条数据删除了无法恢复")) {
                 var _this = this;
                 var url = "task/handOver/" + id;
                 axios.get(url).then(function (result) {
@@ -62,9 +63,39 @@ new Vue({
         },
         toHandOver: function () {
             window.open("HandOver.html");
+        },
+        checkLogin: function () {
+            var _this = this;
+            var url = "task/checkLogin";
+            axios.get(url).then(function (result) {
+                console.log(result);
+                if (result.data.flag !== true) {
+                    window.location.href = "userLogin.html"
+                } else {
+                    _this.users = result.data.data;
+                }
+            }).catch(function (err) {
+                console.log(err);
+            });
+        },
+        logOff: function () {
+            var _this = this;
+            var url = "task/LogOff";
+            axios.get(url).then(function (result) {
+                console.log(result);
+                if (result.data.flag === true) {
+                    window.location.reload();
+                } else {
+                    alert("登出失败!请手动清理COOKIE!");
+                    window.location.reload();
+                }
+            }).catch(function (err) {
+                console.log(err);
+            });
         }
     },
     created: function () {
+        this.checkLogin();
         this.findAll();
         this.findHandOver();
     }
