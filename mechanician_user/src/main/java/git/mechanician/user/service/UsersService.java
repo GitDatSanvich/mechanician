@@ -4,6 +4,7 @@ import git.mechanician.user.dao.UsersDao;
 import git.mechanician.user.pojo.Users;
 import git.mechanician.user.utils.IdWorker;
 import git.mechanician.user.utils.SHA;
+import git.mechanician.user.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -32,8 +33,6 @@ public class UsersService {
 
     @Autowired
     private IdWorker idWorker;
-    @Autowired
-    private SHA sha;
 
     /**
      * 条件查询+分页
@@ -80,8 +79,15 @@ public class UsersService {
     public String add(Users users) {
         Users u = usersDao.findByUsername(users.getUsername());
         if (u == null) {
-            String password = sha.getResult(users.getPassword());
+
+            String password = users.getPassword();
+            String msg = SHA.egPasswd(users.getPassword());     //密码格式校验
+            if (StringUtils.isNotBlank(msg)) {
+                return msg;
+            }
+            password = SHA.getResult(users.getPassword());
             users.setPassword(password);
+
             users.setId(idWorker.nextId() + "");
             users.setNum(0);
             users.setRole("1");
@@ -166,7 +172,7 @@ public class UsersService {
     }
 
     public Users login(String username, String password) {
-        String result = sha.getResult(password);
+        String result = SHA.getResult(password);
         return usersDao.findByUsernameAndPassword(username, result);
     }
 

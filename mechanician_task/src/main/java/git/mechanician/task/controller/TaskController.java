@@ -229,7 +229,7 @@ public class TaskController {
         return new Result(true, StatusCode.OK, "已登出");
     }
 
-    @RequestMapping(value = "signIn", method = RequestMethod.POST)
+    @RequestMapping(value = "/signIn", method = RequestMethod.POST)
     public Result signIn(@RequestBody Users users) {
         String message = userClient.signIn(users);
         if (message.equals("用户注册成功")) {
