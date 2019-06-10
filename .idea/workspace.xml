@@ -1,46 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="添加Zuul(无用)">
-      <change afterPath="$PROJECT_DIR$/mechanician_config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/signIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/userLogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/signIn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/userLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/mechanician_user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/SHA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/HandOverClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/HandOverClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/mechanical.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveHandOver.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveHandOver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/saveTask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/taskDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/mechanical.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/mechanical.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/taskDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/js/taskDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/userLogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="506">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -115,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="237" column="59" selection-start-line="237" selection-start-column="59" selection-end-line="237" selection-end-column="59" />
+            <state relative-caret-position="375">
+              <caret line="237" column="48" selection-start-line="237" selection-start-column="48" selection-end-line="237" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/SHA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -286,8 +248,8 @@
         <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/cilent/UserClient.java" />
         <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" />
         <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" />
-        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" />
         <option value="$PROJECT_DIR$/mechanician_task/src/main/resources/static/js/signIn.js" />
+        <option value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" />
       </list>
     </option>
   </component>
@@ -311,8 +273,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="271" />
-    <option name="y" value="-16" />
+    <option name="x" value="226" />
+    <option name="y" value="-9" />
     <option name="width" value="1253" />
     <option name="height" value="734" />
   </component>
@@ -660,7 +622,7 @@
       <workItem from="1559871955057" duration="8305000" />
       <workItem from="1559958250992" duration="15590000" />
       <workItem from="1560046359787" duration="14131000" />
-      <workItem from="1560166937630" duration="184000" />
+      <workItem from="1560166937630" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551030881945</created>
@@ -949,7 +911,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558849736708</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="增加了用户服务 添加了登录/用户注册功能">
+      <created>1560167287998</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167287998</updated>
+    </task>
+    <task id="LOCAL-00043" summary="增加了用户服务 添加了登录/用户注册功能">
+      <created>1560167366987</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167366987</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -959,7 +935,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.1881663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" sideWeight="0.5007949" side_tool="true" weight="0.2153518" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -982,7 +958,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49840087" weight="0.18004338" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.35140997" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49769938" visible="true" weight="0.2407809" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49769938" visible="true" weight="0.28199565" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2489339" />
@@ -1120,7 +1096,8 @@
     <MESSAGE value="在业务逻辑上进行了一些小修改" />
     <MESSAGE value="整体修改 功能更变" />
     <MESSAGE value="添加Zuul(无用)" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Zuul(无用)" />
+    <MESSAGE value="增加了用户服务 添加了登录/用户注册功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了用户服务 添加了登录/用户注册功能" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
