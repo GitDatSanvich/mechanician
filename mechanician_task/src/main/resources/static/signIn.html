@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>机务任务经验分享</title>
+    <title>注册</title>
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./plugins/adminLTE/css/AdminLTE.css">
@@ -63,99 +63,56 @@
 
 <div class="box-header with-border">
     <h3 class="box-title">川航北京机务任务经验分享</h3>
-
 </div>
 <section class="content" id="app">
     <div class="box-body">
-        <h5>账号:{{users.username}} <a @click="logOff()">登出</a></h5>
 
         <!-- 数据表格 -->
-        <div class="table-box">
-
-            <!--工具栏-->
-            <div class="pull-left">
-                <div class="form-group form-inline">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default" title="新建" data-toggle="modal"
-                                @click="toSave()"><i class="fa fa-file-o"></i> 新建
-                        </button>
-                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
-                                class="fa fa-refresh"></i> 刷新
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="box-tools pull-right">
-                <div class="has-feedback">
-                    按章节号搜索 :<input type="text" v-model="chapter.chapter1">-<input type="text"
-                                                                                  v-model="chapter.chapter2">-<input
-                        type="text" v-model="chapter.chapter3">
-                    <button type="button" @click="toSearch()">查询</button>
-                </div>
-            </div>
-            <!--工具栏/-->
+        <div class="table-box" style="width: 400px;margin: 0 auto;">
 
             <!--数据列表-->
             <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
+                <!--用户名-->
                 <thead>
                 <tr>
-                    <th class="" style="padding-right:0px">
-                    </th>
-                    <th class="sorting_asc">章节号</th>
-                    <th class="sorting">名称</th>
-                    <th class="sorting">作者</th>
-                    <th class="text-center">操作</th>
+                    <th class="sorting_asc">用户名</th>
+                    <td><input type="text" v-model="users.username"></td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr v-for="task in taskList">
-                    <td><input type="checkbox"></td>
-                    <td>{{task.chapter1}}-{{task.chapter2}}-{{task.chapter3}}</td>
-                    <td>{{task.title}}</td>
-                    <td>{{task.writer}}</td>
-                    <td class="text-center">
-                        <a @click="toDetail(task.id)">
-                            <span>查看</span>
-                        </a>
-                        <a @click="toUpdate(task.id)">
-                            <span>更改</span>
-                        </a>
-                    </td>
+                <!--密码-->
+                <thead>
+                <tr>
+                    <th class="sorting_asc">密码</th>
+                    <td><input type="password" v-model="users.password"></td>
                 </tr>
-                </tbody>
-            </table>
+                </thead>
+                <!--重复密码-->
+                <thead>
+                <tr>
+                    <th class="sorting_asc">确认密码</th>
+                    <td><input type="password"></td>
+                </tr>
+                </thead>
+                <!--邮箱-->
+                <thead>
+                <tr>
+                    <th class="sorting_asc">邮箱</th>
+                    <td><input type="text" v-model="users.email"></td>
+                </tr>
+                </thead>
 
-            <div style="color: red"><h4><strong>交接项(保留三天)</strong></h4></div>
-            <button type="button" class="btn btn-default" title="新建交接" data-toggle="modal"
-                    @click="toHandOver()"><i class="fa fa-file-o"></i>新建交接
-            </button>
-            <table id="handOverList" class="table table-bordered table-striped table-hover dataTable">
-                <thead>
-                <tr>
-                    <th class="text-center" width="200">交接生成时间</th>
-                    <th class="text-center">交接内容</th>
-                    <th class="text-center" width="50"></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr v-for="handOver in handOverList">
-                    <td>{{handOver.dates}}</td>
-                    <td>{{handOver.main}}</td>
-                    <td class="text-center">
-                        <a @click="toDelete(handOver.id)">
-                            <span>删除</span>
-                        </a>
-                    </td>
-                </tr>
-                </tbody>
+
             </table>
-            <!-- 数据表格 /-->
+            <div style="width: 100%; text-align: center">
+                <button type="button" class="btn btn-default" title="保存" @click="signIn()">
+                    <i class="fa fa-refresh"></i>注册
+                </button>
+            </div>
         </div>
-        <!-- /.box-body -->
     </div>
 </section>
 <script src="js/vuejs-2.5.16.js"></script>
 <script src="js/axios-0.18.0.js"></script>
-<script src="js/mechanical.js"></script>
+<script src="js/signIn.js"></script>
 </body>
 </html>

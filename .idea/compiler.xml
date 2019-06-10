@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mechanician_handOver" />
-        <module name="mechanician_zuul" />
-        <module name="mechanician_tools" />
         <module name="mechanician_eureka" />
+        <module name="mechanician_tools" />
         <module name="mechanician_task" />
+        <module name="mechanician_config" />
+        <module name="mechanician_user" />
+        <module name="mechanician_zuul" />
+        <module name="mechanician_handOver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,11 +23,13 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mechanician_common" options="-parameters" />
+      <module name="mechanician_config" options="-parameters" />
       <module name="mechanician_eureka" options="-parameters" />
       <module name="mechanician_handOver" options="-parameters" />
       <module name="mechanician_task" options="-parameters" />
       <module name="mechanician_tool" options="-parameters" />
       <module name="mechanician_tools" options="-parameters" />
+      <module name="mechanician_user" options="-parameters" />
       <module name="mechanician_zuul" options="-parameters" />
     </option>
   </component>
