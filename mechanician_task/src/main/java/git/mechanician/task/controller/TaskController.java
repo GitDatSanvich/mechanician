@@ -12,7 +12,6 @@ import git.mechanician.task.pojo.Tools;
 import git.mechanician.task.pojo.Users;
 import git.mechanician.task.service.TaskService;
 import git.mechanician.task.utils.IdWorker;
-import org.apache.http.HttpResponse;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -48,12 +47,15 @@ public class TaskController {
     private IdWorker idWorker;
 
     @RequestMapping(value = "/handOver", method = RequestMethod.POST)
-    public Result addHandOver(@RequestBody Map map) {
+    public Result addHandOver(@RequestBody Map map, HttpSession session) {
+        //从session中取Key 拿取redis中的用户信息
+        String uuid = (String) session.getAttribute("uuid");
+        String username = (String) redisTemplate.boundHashOps("userLogin").get(uuid + "_username");
         String main = (String) map.get("main");
-        System.err.println(main);
 
         Handover handover = new Handover();
         handover.setMain(main);
+        handover.setUsername(username);
         return handOverClient.add(handover);
     }
 
@@ -71,7 +73,6 @@ public class TaskController {
     public Result addTools(@RequestBody Tools tools) {
         String tool = tools.getTools() + ":" + tools.getId();
         rabbitTemplate.convertAndSend("test", tool);
-        System.out.println("cunrule");
         return new Result(true, StatusCode.OK, "增加成功");
     }
 
@@ -136,7 +137,10 @@ public class TaskController {
      * @param task
      */
     @RequestMapping(method = RequestMethod.POST)
-    public Result add(@RequestBody Task task) {
+    public Result add(@RequestBody Task task, HttpSession session) {
+        String uuid = (String) session.getAttribute("uuid");
+        String username = (String) redisTemplate.boundHashOps("userLogin").get(uuid + "_username");
+        task.setWriter(username);
         Task resultTask = taskService.add(task);
         boolean a = true;
         while (a) {

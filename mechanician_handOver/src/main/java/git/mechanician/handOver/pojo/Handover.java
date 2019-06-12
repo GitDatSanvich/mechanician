@@ -4,6 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
+import java.util.Date;
+
 /**
  * 实体类
  * @author Administrator
@@ -20,7 +22,26 @@ public class Handover implements Serializable {
     private java.util.Date date;//建立时间
     private String main;//交接内容
     private String dates;//建立时间字符串格式
+    private String username;
 
+    public Handover() {
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public Handover(String id, Date date, String main, String dates, String username) {
+        Id = id;
+        this.date = date;
+        this.main = main;
+        this.dates = dates;
+        this.username = username;
+    }
 
     public String getId() {
         return Id;

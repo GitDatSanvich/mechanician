@@ -20,7 +20,6 @@ public class SHA {
             MessageDigest messageDigest = MessageDigest.getInstance(KEY_SHA);
             messageDigest.update(inputData);
             sha = new BigInteger(messageDigest.digest());
-            System.out.println("SHA加密后:" + sha.toString());
         } catch (Exception e) {
             e.printStackTrace();
         }

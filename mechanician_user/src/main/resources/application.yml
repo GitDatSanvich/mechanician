@@ -23,6 +23,9 @@ spring:
         max-idle: 0
         min-idle: 0
     timeout: 5000
+ribbon:
+  eureka:
+    enabled: true
 eureka:
   client:
     service-url:

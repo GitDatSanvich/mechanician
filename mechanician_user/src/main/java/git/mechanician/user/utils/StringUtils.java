@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
 package git.mechanician.user.utils;
 
 import java.io.File;
@@ -19,10 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.springframework.core.io.DefaultResourceLoader;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
-import org.springframework.web.servlet.LocaleResolver;
-
 import com.google.common.collect.Lists;
 
 /**
@@ -68,7 +61,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
     /**
      * 转换为字节数组
      *
-     * @param str
+     * @param bytes
      * @return
      */
     public static String toString(byte[] bytes) {
@@ -494,7 +487,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
     /**
      * 字符串比较
      *
-     * @param str1，str2
+     * @param arr1，arr2
      * @return
      */
     public static String compareString(String[] arr1, String[] arr2) {
@@ -560,9 +553,5 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils {
                 return false;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println(isValidDate("2018-02-08 15:30:00"));
     }
 }

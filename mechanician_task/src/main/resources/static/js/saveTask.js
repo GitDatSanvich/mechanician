@@ -4,7 +4,8 @@ new Vue({
         Id: {},
         task: {},
         tools: {},
-        taskId: {}
+        taskId: {},
+        users: {}
     },
     methods: {
         findById: function (Id) {
@@ -69,6 +70,8 @@ new Vue({
                 console.log(result);
                 if (result.data.flag !== true) {
                     window.location.href = "userLogin.html"
+                } else {
+                    _this.users = result.data.data
                 }
             }).catch(function (err) {
                 console.log(err);

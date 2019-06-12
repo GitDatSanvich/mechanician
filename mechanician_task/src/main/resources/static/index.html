@@ -132,7 +132,8 @@
             <table id="handOverList" class="table table-bordered table-striped table-hover dataTable">
                 <thead>
                 <tr>
-                    <th class="text-center" width="200">交接生成时间</th>
+                    <th class="text-center" width="175">交接生成时间</th>
+                    <th class="text-center" width="80">交接人</th>
                     <th class="text-center">交接内容</th>
                     <th class="text-center" width="50"></th>
                 </tr>
@@ -140,7 +141,9 @@
                 <tbody>
                 <tr v-for="handOver in handOverList">
                     <td>{{handOver.dates}}</td>
+                    <td>{{handOver.username}}</td>
                     <td>{{handOver.main}}</td>
+
                     <td class="text-center">
                         <a @click="toDelete(handOver.id)">
                             <span>删除</span>
