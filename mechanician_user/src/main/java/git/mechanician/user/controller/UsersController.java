@@ -138,15 +138,8 @@ public class UsersController {
 
     @RequestMapping(value = "/userActive", method = RequestMethod.POST)
     public String userActive(@RequestBody String id) {
-        Result result = usersService.userActive(id);
-        if (result.getMassage().equals("用户激活成功 耐心等待审核")) {
-            return "forward:www.baidu.com";
-        } else {
-            return "forward:www.bing.com";
-        }
-
+        return usersService.userActive(id).getMassage();
     }
-
 }
 
 

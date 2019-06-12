@@ -12,6 +12,7 @@ import git.mechanician.task.pojo.Tools;
 import git.mechanician.task.pojo.Users;
 import git.mechanician.task.service.TaskService;
 import git.mechanician.task.utils.IdWorker;
+import org.apache.http.HttpResponse;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -245,7 +246,7 @@ public class TaskController {
     }
 
     @RequestMapping(value = "/userActive/{id}", method = RequestMethod.GET)
-    public String userActive(@PathVariable String id) {
+    public String userActive(@PathVariable String id, HttpResponse response) {
         return userClient.userActive(id);
     }
 }
