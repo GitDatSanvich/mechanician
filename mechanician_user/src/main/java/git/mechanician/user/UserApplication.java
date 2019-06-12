@@ -1,5 +1,6 @@
 package git.mechanician.user;
 
+import git.mechanician.user.core.MailSender;
 import git.mechanician.user.utils.IdWorker;
 import git.mechanician.user.utils.SHA;
 import org.springframework.boot.SpringApplication;
@@ -30,4 +31,8 @@ public class UserApplication {
         return new SHA();
     }
 
+    @Bean
+    public MailSender mailSender() {
+        return new MailSender();
+    }
 }

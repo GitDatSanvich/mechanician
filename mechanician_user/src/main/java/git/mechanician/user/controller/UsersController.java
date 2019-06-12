@@ -6,8 +6,10 @@ import git.mechanician.user.entity.StatusCode;
 import git.mechanician.user.pojo.Users;
 import git.mechanician.user.service.UsersService;
 import git.mechanician.user.utils.IdWorker;
+import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -130,11 +132,19 @@ public class UsersController {
 
     @RequestMapping(value = "/checkLogin", method = RequestMethod.POST)
     public Users checkLogin(@RequestBody Users users) {
-        System.out.println("username==========" + users.getUsername());
-        System.out.println("password==========" + users.getPassword());
         Users users1 = usersService.checkLogin(users.getUsername(), users.getPassword());
-        System.err.println(users1);
         return users1;
+    }
+
+    @RequestMapping(value = "/userActive", method = RequestMethod.POST)
+    public String userActive(@RequestBody String id) {
+        Result result = usersService.userActive(id);
+        if (result.getMassage().equals("用户激活成功 耐心等待审核")) {
+            return "forward:www.baidu.com";
+        } else {
+            return "forward:www.bing.com";
+        }
+
     }
 
 }
