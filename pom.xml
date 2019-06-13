@@ -31,22 +31,22 @@
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
     </properties>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <dependencies>
-                    <!-- spring热部署 -->
-                    <dependency>
-                        <groupId>org.springframework</groupId>
-                        <artifactId>springloaded</artifactId>
-                        <version>1.2.6.RELEASE</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-        </plugins>
-    </build>
+    <!-- <build>
+         <plugins>
+             <plugin>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-maven-plugin</artifactId>
+                 <dependencies>
+                     &lt;!&ndash; spring热部署 &ndash;&gt;
+                     <dependency>
+                         <groupId>org.springframework</groupId>
+                         <artifactId>springloaded</artifactId>
+                         <version>1.2.6.RELEASE</version>
+                     </dependency>
+                 </dependencies>
+             </plugin>
+         </plugins>
+     </build>-->
 
     <dependencies>
         <dependency>
@@ -97,41 +97,41 @@
     </dependencyManagement>
 
 
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+    <!-- <repositories>
+         <repository>
+             <id>spring-snapshots</id>
+             <name>Spring Snapshots</name>
+             <url>https://repo.spring.io/snapshot</url>
+             <snapshots>
+                 <enabled>true</enabled>
+             </snapshots>
+         </repository>
+         <repository>
+             <id>spring-milestones</id>
+             <name>Spring Milestones</name>
+             <url>https://repo.spring.io/milestone</url>
+             <snapshots>
+                 <enabled>false</enabled>
+             </snapshots>
+         </repository>
+     </repositories>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
+     <pluginRepositories>
+         <pluginRepository>
+             <id>spring-snapshots</id>
+             <name>Spring Snapshots</name>
+             <url>https://repo.spring.io/snapshot</url>
+             <snapshots>
+                 <enabled>true</enabled>
+             </snapshots>
+         </pluginRepository>
+         <pluginRepository>
+             <id>spring-milestones</id>
+             <name>Spring Milestones</name>
+             <url>https://repo.spring.io/milestone</url>
+             <snapshots>
+                 <enabled>false</enabled>
+             </snapshots>
+         </pluginRepository>
+     </pluginRepositories>-->
 </project>

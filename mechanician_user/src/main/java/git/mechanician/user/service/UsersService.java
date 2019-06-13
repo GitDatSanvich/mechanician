@@ -113,7 +113,8 @@ public class UsersService {
                         "<h3 style=\"width: 100%; text-align: center\">如长时间没有人回复或者通知您是否可以登录,您也可以邮件回复/询问我.</h3>\n" +
                         "<div style=\"width: 100%; text-align: center\">\n" +
                         "    <h3><a href=" +
-                        //TODO 服务器地址+task/userActive/{id}
+                        //TODO 上线时改成服务器IP
+                        "\"http://47.107.145.120:9001/task/userActive/" + users.getId() + "\"" +
                         ">激活!</a></h3>\n" +
                         "</div>").send();
             } catch (Exception e) {
