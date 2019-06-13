@@ -3,40 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_handOver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_handOver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/assets/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/collection.psd" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/printer.psd" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ionicons/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ionicons/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ionicons/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ionicons/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ionicons/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/ionicons/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/target/classes/static/plugins/select2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_tools/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mechanician_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,13 +63,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="116" column="41" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="41" />
+            <state relative-caret-position="245">
+              <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mechanician_user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="117" column="29" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/hynnet/jacob/1.18/jacob-1.18.jar!/com/jacob/activeX/ActiveXComponent.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,14 +218,14 @@
         <option value="$PROJECT_DIR$/mechanician_tools/src/main/java/git/mechanician/tools/ToolsApplication.java" />
         <option value="$PROJECT_DIR$/mechanician_handOver/src/main/java/git/mechanician/handOver/HandOverApplication.java" />
         <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" />
-        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" />
-        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mechanician_user/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_tools/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_task/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_handOver/pom.xml" />
         <option value="$PROJECT_DIR$/mechanician_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/mechanician_user/pom.xml" />
+        <option value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" />
       </list>
     </option>
   </component>
@@ -237,13 +244,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mechanician_user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mechanician_user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="-11" />
+    <option name="x" value="610" />
+    <option name="y" value="-28" />
     <option name="width" value="1215" />
     <option name="height" value="696" />
   </component>
@@ -357,6 +374,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mechanician" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mechanician" type="462c0819:PsiDirectoryNode" />
+              <item name="mechanician_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -653,7 +678,7 @@
       <workItem from="1560307377936" duration="8155000" />
       <workItem from="1560324096033" duration="7040000" />
       <workItem from="1560340650331" duration="2772000" />
-      <workItem from="1560389346348" duration="11220000" />
+      <workItem from="1560389346348" duration="13142000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551030881945</created>
@@ -991,7 +1016,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560332166970</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="解决打包小的问题">
+      <created>1560407131579</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560407131579</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1000,7 +1032,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320505000" />
+    <option name="totallyTimeSpent" value="322427000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1012,10 +1044,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="772" y="149" width="1215" height="696" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.28311688" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" sideWeight="0.5007949" side_tool="true" weight="0.2153518" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1025,7 +1057,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32823366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769938" weight="0.5151844" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49769938" visible="true" weight="0.27223426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1038,12 +1070,12 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49840087" weight="0.18221258" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.35140997" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49769938" visible="true" weight="0.27224198" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49769938" weight="0.2516269" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2489339" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49608764" visible="true" weight="0.116883114" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49608764" visible="true" weight="0.17270789" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32900432" />
@@ -1180,7 +1212,8 @@
     <MESSAGE value="添加了邮件发送功能,在用户注册/用户激活时分别给用户/管理员发送邮件" />
     <MESSAGE value="更改了application的设置防止Load balancer错误的发生" />
     <MESSAGE value="优化逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化逻辑" />
+    <MESSAGE value="解决打包小的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决打包小的问题" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1191,28 +1224,6 @@
     <SUITE FILE_PATH="coverage/mechanician$ZuulApplication.ic" NAME="ZuulApplication Coverage Results" MODIFIED="1558798376157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/resources/static/Mail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_task/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1587,13 +1598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="17" selection-start-line="17" selection-end-line="63" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_tools/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1010">
@@ -1605,16 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1659,8 +1653,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="41" />
+        <state relative-caret-position="245">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hynnet/jacob/1.18/jacob-1.18.jar!/com/jacob/com/Dispatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#11778#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hynnet/jacob/1.18/jacob-1.18.jar!/com/jacob/activeX/ActiveXComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
