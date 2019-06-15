@@ -245,8 +245,8 @@ public class TaskController {
         }
     }
 
-    @RequestMapping(value = "/userActive/{id}", method = RequestMethod.GET)
-    public String userActive(@PathVariable String id, HttpResponse response) {
-        return userClient.userActive(id);
+    @RequestMapping(value = "/userActive/{id}/{key}", method = RequestMethod.GET)
+    public String userActive(@PathVariable String id, @PathVariable String key, HttpResponse response) {
+        return userClient.userActive(id, key);
     }
 }
