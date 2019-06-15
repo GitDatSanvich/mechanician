@@ -223,6 +223,7 @@ public class UsersService {
             if (trueKey == null || !trueKey.equals(key)) {
                 return new Result(false, StatusCode.OK, "你是坏人！");
             }
+            redisTemplate.boundHashOps("activeMap").delete(id);
 
             users.setStatue("1");
             usersDao.save(users);
