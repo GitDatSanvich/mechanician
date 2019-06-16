@@ -137,8 +137,8 @@ public class UsersController {
     }
 
     @RequestMapping(value = "/userActive", method = RequestMethod.POST)
-    public String userActive(@RequestBody String id) {
-        return usersService.userActive(id).getMassage();
+    public String userActive(@RequestParam String id, @RequestParam String key) {
+        return usersService.userActive(id, key).getMassage();
     }
 }
 
