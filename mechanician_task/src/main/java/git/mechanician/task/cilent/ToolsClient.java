@@ -1,5 +1,6 @@
 package git.mechanician.task.cilent;
 
+import git.mechanician.task.cilent.fallback.ToolsFallBackClientImpl;
 import git.mechanician.task.entity.Result;
 import git.mechanician.task.pojo.Tools;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Author GitDatSanvich
  * @Date 2019/2/25 15:42
  **/
-@FeignClient("mechanician-tools")
+@FeignClient(value = "mechanician-tools", fallback = ToolsFallBackClientImpl.class)
 public interface ToolsClient {
     @RequestMapping(value = "/tools/{id}", method = RequestMethod.GET)
     public Result findByTaskId(@PathVariable("id") String id);

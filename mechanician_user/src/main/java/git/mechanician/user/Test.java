@@ -59,7 +59,7 @@ public class Test {
         ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
         Dispatch sapo = sap.getObject();
         try {
-            sap.setProperty("Volume", new Variant(50));
+            sap.setProperty("Volume", new Variant(100));
             sap.setProperty("Rate", new Variant(0));
             Dispatch.call(sapo, "Speak", new Variant("我你爹"));
         } catch (Exception e) {
