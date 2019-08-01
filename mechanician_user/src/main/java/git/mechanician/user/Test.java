@@ -6,12 +6,10 @@ import com.jacob.com.Variant;
 import git.mechanician.user.core.MailSender;
 import git.mechanician.user.entity.MailContentTypeEnum;
 
-import java.io.File;
 import java.net.Inet4Address;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.Enumeration;
 
 /**
@@ -19,11 +17,13 @@ import java.util.Enumeration;
  * @Author GitDatSanvich
  * @Date 2019/6/12 9:19
  **/
+
 public class Test {
-    /*public static void main(String[] args) throws Exception {
-     *//*MailSender mailSender = new MailSender();
-        mailSender.title("邮件测试").contentType(MailContentTypeEnum.HTML).content("这是一封测试邮件").targets(new ArrayList<String>(){{
-            add("tc704321764@outlook.com");}}).send();
+    public static void mail(String[] args) throws Exception {
+        MailSender mailSender = new MailSender();
+        mailSender.title("邮件测试").contentType(MailContentTypeEnum.HTML).content("这是一封测试邮件").targets(new ArrayList<String>() {{
+            add("tc704321764@outlook.com");
+        }}).send();
 
         mailSender = new MailSender();
         mailSender.title("这是一封激活邮件")            //邮件发送
@@ -39,7 +39,7 @@ public class Test {
                 "    <h3><a href=" +
                 //TODO 服务器地址+task/userActive/{id}
                 ">激活!</a></h3>\n" +
-                "</div>").send();*//*
+                "</div>").send();
         Enumeration allNetInterfaces = NetworkInterface.getNetworkInterfaces();
         InetAddress ip = null;
         while (allNetInterfaces.hasMoreElements()) {
@@ -48,25 +48,28 @@ public class Test {
             Enumeration addresses = netInterface.getInetAddresses();
             while (addresses.hasMoreElements()) {
                 ip = (InetAddress) addresses.nextElement();
-                if (ip != null && ip instanceof Inet4Address) {
+                if (ip instanceof Inet4Address) {
                     System.out.println("本机的IP = " + ip.getHostAddress());
                 }
             }
         }
-    }*/
+    }
+
+    @SuppressWarnings("InfiniteLoopStatement")
     public static void main(String[] args) throws Exception {
-//        File file = new File("test.txt");
-        ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
-        Dispatch sapo = sap.getObject();
-        try {
-            sap.setProperty("Volume", new Variant(100));
-            sap.setProperty("Rate", new Variant(0));
-            Dispatch.call(sapo, "Speak", new Variant("我你爹"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            sapo.safeRelease();
-            sap.safeRelease();
+        long i = 1L;
+        while (true) {
+            try {
+                ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
+                Dispatch sapo = sap.getObject();
+                sap.setProperty("Volume", new Variant(100));
+                sap.setProperty("Rate", new Variant(0));
+                Dispatch.call(sapo, "Speak", new Variant("走啊,吃饭去,第" + i + "次"));
+                i++;
+            } catch (Exception e) {
+                System.out.println("发声失败");
+                throw new RuntimeException("发声失败");
+            }
         }
     }
 }
