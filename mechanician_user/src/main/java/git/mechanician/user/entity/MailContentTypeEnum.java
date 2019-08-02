@@ -9,7 +9,9 @@ import java.io.Serializable;
  **/
 
 public enum MailContentTypeEnum implements Serializable {
-    HTML("text/html;charset=UTF-8"), //html格式
+    //html格式
+    HTML("text/html;charset=UTF-8"),
+    //文字格式
     TEXT("text"),
     ;
     private String value;

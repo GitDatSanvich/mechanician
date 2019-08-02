@@ -7,6 +7,7 @@ import git.mechanician.user.entity.Result;
 import git.mechanician.user.entity.StatusCode;
 import git.mechanician.user.pojo.Users;
 import git.mechanician.user.utils.IdWorker;
+import git.mechanician.user.utils.MagicValues;
 import git.mechanician.user.utils.SHA;
 import git.mechanician.user.utils.StringUtils;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -17,6 +18,7 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
@@ -34,16 +36,16 @@ import java.util.Map;
 public class UsersService {
 
 
-    @Autowired
+    @Resource
     private UsersDao usersDao;
 
-    @Autowired
+    @Resource
     private IdWorker idWorker;
 
-    @Autowired
+    @Resource
     private MailSender mailSender;
 
-    @Autowired
+    @Resource
     private RedisTemplate redisTemplate;
 
     /**
@@ -166,28 +168,28 @@ public class UsersService {
             public Predicate toPredicate(Root<Users> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
                 List<Predicate> predicateList = new ArrayList<Predicate>();
                 // 用户id
-                if (searchMap.get("Id") != null && !"".equals(searchMap.get("Id"))) {
-                    predicateList.add(cb.like(root.get("Id").as(String.class), "%" + (String) searchMap.get("Id") + "%"));
+                if (searchMap.get(MagicValues.ID) != null && !"".equals(searchMap.get(MagicValues.ID))) {
+                    predicateList.add(cb.like(root.get(MagicValues.ID).as(String.class), "%" + (String) searchMap.get(MagicValues.ID) + "%"));
                 }
                 // 用户名称
-                if (searchMap.get("username") != null && !"".equals(searchMap.get("username"))) {
-                    predicateList.add(cb.like(root.get("username").as(String.class), "%" + (String) searchMap.get("username") + "%"));
+                if (searchMap.get(MagicValues.USERNAME) != null && !"".equals(searchMap.get(MagicValues.USERNAME))) {
+                    predicateList.add(cb.like(root.get(MagicValues.USERNAME).as(String.class), "%" + (String) searchMap.get(MagicValues.USERNAME) + "%"));
                 }
                 // 用户邮箱
-                if (searchMap.get("email") != null && !"".equals(searchMap.get("email"))) {
-                    predicateList.add(cb.like(root.get("email").as(String.class), "%" + (String) searchMap.get("email") + "%"));
+                if (searchMap.get(MagicValues.EMAIL) != null && !"".equals(searchMap.get(MagicValues.EMAIL))) {
+                    predicateList.add(cb.like(root.get(MagicValues.EMAIL).as(String.class), "%" + (String) searchMap.get(MagicValues.EMAIL) + "%"));
                 }
                 //用户积分(文章数)
-                if (searchMap.get("num") != null && !"".equals(searchMap.get("num"))) {
-                    predicateList.add(cb.like(root.get("num").as(String.class), "%" + (String) searchMap.get("num") + "%"));
+                if (searchMap.get(MagicValues.NUM) != null && !"".equals(searchMap.get(MagicValues.NUM))) {
+                    predicateList.add(cb.like(root.get(MagicValues.NUM).as(String.class), "%" + (String) searchMap.get(MagicValues.NUM) + "%"));
                 }
                 //用户角色
-                if (searchMap.get("role") != null && !"".equals(searchMap.get("role"))) {
-                    predicateList.add(cb.like(root.get("role").as(String.class), "%" + (String) searchMap.get("role") + "%"));
+                if (searchMap.get(MagicValues.ROLE) != null && !"".equals(searchMap.get(MagicValues.ROLE))) {
+                    predicateList.add(cb.like(root.get(MagicValues.ROLE).as(String.class), "%" + (String) searchMap.get(MagicValues.ROLE) + "%"));
                 }
                 //用户密码
-                if (searchMap.get("password") != null && !"".equals(searchMap.get("password"))) {
-                    predicateList.add(cb.like(root.get("password").as(String.class), "%" + (String) searchMap.get("password") + "%"));
+                if (searchMap.get(MagicValues.PASSWORD) != null && !"".equals(searchMap.get(MagicValues.PASSWORD))) {
+                    predicateList.add(cb.like(root.get(MagicValues.PASSWORD).as(String.class), "%" + (String) searchMap.get(MagicValues.PASSWORD) + "%"));
                 }
 
                 return cb.and(predicateList.toArray(new Predicate[predicateList.size()]));

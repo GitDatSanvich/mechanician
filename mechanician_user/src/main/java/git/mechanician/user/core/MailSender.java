@@ -74,8 +74,9 @@ public class MailSender {
      */
     public void send() throws Exception {
         //默认使用html内容发送
-        if (mail.getContentType() == null)
+        if (mail.getContentType() == null) {
             mail.setContentType(MailContentTypeEnum.HTML.getValue());
+        }
 
         if (mail.getTitle() == null || mail.getTitle().trim().length() == 0) {
             throw new Exception("邮件标题没有设置.调用title方法设置");
@@ -106,6 +107,7 @@ public class MailSender {
 
         // 构建授权信息，用于进行SMTP进行身份验证
         Authenticator authenticator = new Authenticator() {
+            @Override
             protected PasswordAuthentication getPasswordAuthentication() {
                 // 用户名、密码
                 String userName = props.getProperty("mail.user");

@@ -8,10 +8,22 @@ import java.io.Serializable;
  * @Date 2019/2/15 19:00
  **/
 public class Result implements Serializable {
-    private Integer code;//返回码
-    private boolean flag;//是否成功
-    private String massage;//返回消息
-    private Object data;//返回数据
+    /**
+     * 返回码
+     */
+    private Integer code;
+    /**
+     * 是否成功
+     */
+    private boolean flag;
+    /**
+     * 返回消息
+     */
+    private String massage;
+    /**
+     * 返回数据
+     */
+    private Object data;
 
     public Integer getCode() {
         return code;

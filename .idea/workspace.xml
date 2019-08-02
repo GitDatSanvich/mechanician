@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="&lt;增加FallBack&gt;&lt;增加声音测试?&gt;">
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/ExcelListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/EzExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/JasyptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/ConversionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mechanician.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mechanician.iml" afterDir="false" />
+    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Elaking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/mechanician_user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/MagicValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/TaskApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/mechanician_user.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/test/java/git/mechanician/user/MechanicianUserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/core/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/core/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailContentTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailContentTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,27 +57,10 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>id=&quot;app&quot;</find>
-      <find>RunDashboard</find>
-      <find>deleteByTaskId</find>
-      <find>findByTaskId</find>
-      <find>Id</find>
-      <find>handover</find>
-      <find>Handover</find>
-      <find>h2</find>
-      <find>programId</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>users</replace>
-      <replace>Users</replace>
-      <replace>h3</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -184,7 +168,7 @@
     </option>
     <option name="contentProportion" value="0.20021646" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="EzExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="git.mechanician.task.EzExcel" />
       <module name="mechanician_task" />
@@ -224,20 +208,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mechanician_config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="git.mechanician.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="git.mechanician.config" />
-      <option name="MAIN_CLASS_NAME" value="git.mechanician.config.ConfigApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mechanician_user" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mechanician_config" />
@@ -310,7 +301,7 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.JasyptTest" />
       <item itemvalue="Application.EzExcel" />
-      <item itemvalue="JUnit.ConfigApplicationTests" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Spring Boot.ToolsApplication" />
       <item itemvalue="Spring Boot.HandOverApplication" />
       <item itemvalue="Spring Boot.TaskApplication" />
@@ -321,11 +312,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.JasyptTest" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Application.EzExcel" />
-        <item itemvalue="JUnit.ConfigApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +324,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2dca2e33" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -477,14 +473,9 @@
       <workItem from="1564203893567" duration="10000" />
       <workItem from="1564390914167" duration="919000" />
       <workItem from="1564548051803" duration="11273000" />
-      <workItem from="1564639843644" duration="837000" />
-    </task>
-    <task id="LOCAL-00003" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
-      <created>1551032394892</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1551032394892</updated>
+      <workItem from="1564639843644" duration="1165000" />
+      <workItem from="1564641455072" duration="1212000" />
+      <workItem from="1564707715784" duration="2952000" />
     </task>
     <task id="LOCAL-00004" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551032494232</created>
@@ -822,7 +813,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562290676515</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="&lt;增加EasyExcelDemo&gt;">
+      <created>1564640848368</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1564640848369</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -858,13 +856,24 @@
         <entry key="1">
           <value>
             <State>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
               </option>
             </State>
           </value>
@@ -949,7 +958,8 @@
     <MESSAGE value="解决打包小的问题" />
     <MESSAGE value="尝试部署 更改userService里的邮件发送地址" />
     <MESSAGE value="&lt;增加FallBack&gt;&lt;增加声音测试?&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;增加FallBack&gt;&lt;增加声音测试?&gt;" />
+    <MESSAGE value="&lt;增加EasyExcelDemo&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;增加EasyExcelDemo&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
