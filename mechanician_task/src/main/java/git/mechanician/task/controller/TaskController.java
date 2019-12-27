@@ -14,11 +14,11 @@ import git.mechanician.task.service.TaskService;
 import git.mechanician.task.utils.IdWorker;
 import org.apache.http.HttpResponse;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
@@ -32,19 +32,19 @@ import java.util.Map;
 @RequestMapping("/task")
 public class TaskController {
 
-    @Autowired
+    @Resource
     private TaskService taskService;
-    @Autowired
+    @Resource
     private ToolsClient toolsClient;
-    @Autowired
+    @Resource
     private RabbitTemplate rabbitTemplate;
-    @Autowired
-    private RedisTemplate redisTemplate;
-    @Autowired
+    @Resource
+    private RedisTemplate<String, String> redisTemplate;
+    @Resource
     private HandOverClient handOverClient;
-    @Autowired
+    @Resource
     private UserClient userClient;
-    @Autowired
+    @Resource
     private IdWorker idWorker;
 
     @RequestMapping(value = "/handOver", method = RequestMethod.POST)
@@ -80,7 +80,7 @@ public class TaskController {
     /**
      * 查询全部数据
      *
-     * @return
+     * @return Result
      */
     @RequestMapping(value = "/tools/{id}", method = RequestMethod.GET)
     public Result findToolsByTaksId(@PathVariable String id) {
@@ -97,7 +97,7 @@ public class TaskController {
      * 根据ID查询
      *
      * @param id ID
-     * @return
+     * @return Result
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Result findById(@PathVariable String id) {
@@ -122,12 +122,12 @@ public class TaskController {
     /**
      * 根据条件查询
      *
-     * @param searchMap
-     * @return
+     * @param searchMap searchMap
+     * @return Result
      */
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
-    public Result findSearch(@RequestBody Map searchMap) {
+    public Result findSearch(@RequestBody Map<String, String> searchMap) {
         searchMap.put("enable", "1");
         return new Result(true, StatusCode.OK, "查询成功", taskService.findSearch(searchMap));
     }
@@ -135,7 +135,7 @@ public class TaskController {
     /**
      * 增加
      *
-     * @param task
+     * @param task task
      */
     @RequestMapping(method = RequestMethod.POST)
     public Result add(@RequestBody Task task, HttpSession session) {
@@ -157,7 +157,7 @@ public class TaskController {
     /**
      * 修改
      *
-     * @param task
+     * @param task task
      */
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
     public Result update(@RequestBody Task task, @PathVariable String id) {
@@ -169,7 +169,7 @@ public class TaskController {
     /**
      * 删除
      *
-     * @param id
+     * @param id id
      */
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public Result delete(@PathVariable("id") String id) {
@@ -180,9 +180,9 @@ public class TaskController {
     /**
      * 用户登录
      *
-     * @param user
-     * @param session
-     * @return
+     * @param user    user
+     * @param session session
+     * @return Result
      */
 
     @RequestMapping(value = "/userLogin", method = RequestMethod.POST)
@@ -191,10 +191,10 @@ public class TaskController {
         if (users == null) {
             return new Result(false, StatusCode.OK, "用户名或密码错误");
         }
-        if (users.getStatue().equals("1")) {
+        if ("1".equals(users.getStatue())) {
             return new Result(false, StatusCode.OK, "用户待管理员审核");
         }
-        if (users.getStatue().equals("0")) {
+        if ("0".equals(users.getStatue())) {
             return new Result(false, StatusCode.OK, "用户未激活");
         } else {
             String uuid = Long.toString(idWorker.nextId());
@@ -211,14 +211,14 @@ public class TaskController {
     public Result checkLogin(HttpSession session) {
         String uuid = (String) session.getAttribute("uuid");
         System.err.println(uuid);
-        if (uuid != null && !uuid.equals("")) {
+        if (uuid != null && !"".equals(uuid)) {
             String username = (String) redisTemplate.boundHashOps("userLogin").get(uuid + "_username");
             String password = (String) redisTemplate.boundHashOps("userLogin").get(uuid + "_password");
             Users user = new Users();
             user.setUsername(username);
             user.setPassword(password);
             Users users = userClient.checkLogin(user);
-            if (users == null || users.getUsername().equals("")) {
+            if (users == null || "".equals(users.getUsername())) {
                 return new Result(false, StatusCode.OK, "无此用户");
             } else {
                 Users data = new Users();
@@ -238,7 +238,7 @@ public class TaskController {
     @RequestMapping(value = "/signIn", method = RequestMethod.POST)
     public Result signIn(@RequestBody Users users) {
         String message = userClient.signIn(users);
-        if (message.equals("用户注册成功")) {
+        if ("用户注册成功".equals(message)) {
             return new Result(true, StatusCode.OK, message);
         } else {
             return new Result(false, StatusCode.OK, message);

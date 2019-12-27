@@ -31,23 +31,6 @@
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
     </properties>
 
-    <!-- <build>
-         <plugins>
-             <plugin>
-                 <groupId>org.springframework.boot</groupId>
-                 <artifactId>spring-boot-maven-plugin</artifactId>
-                 <dependencies>
-                     &lt;!&ndash; spring热部署 &ndash;&gt;
-                     <dependency>
-                         <groupId>org.springframework</groupId>
-                         <artifactId>springloaded</artifactId>
-                         <version>1.2.6.RELEASE</version>
-                     </dependency>
-                 </dependencies>
-             </plugin>
-         </plugins>
-     </build>-->
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -49,16 +49,14 @@ public class Users implements Serializable {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Users{");
-        sb.append("Id='").append(id).append('\'');
-        sb.append(", username='").append(username).append('\'');
-        sb.append(", email='").append(email).append('\'');
-        sb.append(", num=").append(num);
-        sb.append(", role='").append(role).append('\'');
-        sb.append(", password='").append(password).append('\'');
-        sb.append(", statue='").append(statue).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "Users{" + "Id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", num=" + num +
+                ", role='" + role + '\'' +
+                ", password='" + password + '\'' +
+                ", statue='" + statue + '\'' +
+                '}';
     }
     public Users(String id, String username, String email, int num, String role, String password, String statue) {
         this.id = id;

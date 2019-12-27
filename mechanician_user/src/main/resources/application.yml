@@ -30,3 +30,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:6868/eureka
+file-storage:
+  # 生产环境
+  #  download-location: /home/gk/file/download/
+  #  upload-location: /home/gk/file/upload/
+  # 开发环境
+  download-location: /home/web/doctor/file/download/
+  upload-location: /home/web/doctor/file/upload/

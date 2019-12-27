@@ -2,12 +2,10 @@ package git.mechanician.task;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.metadata.BaseRowModel;
-import lombok.Getter;
-import lombok.Setter;
 
 /**
+ * @author GitDatSanvich
  * @ClassName User
- * @Author GitDatSanvich
  * @Date 2019/7/19 16:24
  **/
 public class User extends BaseRowModel {

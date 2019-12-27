@@ -1,23 +1,28 @@
 package git.mechanician.user;
 
+import com.alibaba.fastjson.JSONObject;
 import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.Dispatch;
 import com.jacob.com.Variant;
 import git.mechanician.user.core.MailSender;
 import git.mechanician.user.entity.MailContentTypeEnum;
+import git.mechanician.user.utils.HttpClientUtils;
+import org.springframework.stereotype.Component;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @ClassName Test
  * @Author GitDatSanvich
  * @Date 2019/6/12 9:19
  **/
-
+@Component
 public class Test {
     public static void mail(String[] args) throws Exception {
         MailSender mailSender = new MailSender();
@@ -53,23 +58,50 @@ public class Test {
                 }
             }
         }
+
     }
 
-    @SuppressWarnings("InfiniteLoopStatement")
+ /*   @SuppressWarnings("InfiniteLoopStatement")
     public static void main(String[] args) throws Exception {
         long i = 1L;
+        Map map = new HashMap();
         while (true) {
+            JSONObject jsonObject = null;
             try {
-                ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
-                Dispatch sapo = sap.getObject();
-                sap.setProperty("Volume", new Variant(100));
-                sap.setProperty("Rate", new Variant(0));
-                Dispatch.call(sapo, "Speak", new Variant("走啊,吃饭去,第" + i + "次"));
-                i++;
+                jsonObject = HttpClientUtils.httpGet("http://report.ebelter.com/bhcp-report-aly/healthRecord/json/getReport?physicalID=");
             } catch (Exception e) {
-                System.out.println("发声失败");
-                throw new RuntimeException("发声失败");
+                System.out.println("无网络");
+            }
+            if (jsonObject != null) {
+                try {
+                    ActiveXComponent sap = new ActiveXComponent("Sapi.SpVoice");
+                    Dispatch sapo = sap.getObject();
+                    sap.setProperty("Volume", new Variant(100));
+                    sap.setProperty("Rate", new Variant(0));
+                    Dispatch.call(sapo, "Speak", new Variant("有网了!!!"));
+                    i++;
+                } catch (Exception e) {
+                    System.out.println("发声失败");
+                    throw new RuntimeException("发声失败");
+                }
             }
         }
+    }*/
+
+    void printNumber() {
+        for (int i = 1; i < 10; i++) {
+            System.out.println("i = " + i);
+        }
+    }
+
+
+    public static void main(String[] args) {
+        JSONObject jsonObject = HttpClientUtils.httpPost("http://localhost:28591/haoLa/userInfo", "{\n" +
+                "    \"timestamp\": 1546272000000,\n" +
+                "    \"partner_openid\": \"u00000001\",\n" +
+                "    \"sign\": \"OviwG4VATet2Vl6sjrfJVriyQCU3yRFuwFanAw1yENMBRSroQVx6lHvXsW4S6ICXGMPQEwBinHooDE7QESGrXVEYBDMJ7BenXYrqtELAezR3zrS/A/GJuH2jr8EA6n8oCwY8N1eOYRMnYln7YrXKjWDcljVwKB1ygRoBEE5sfZk=\"\n" +
+                "}");
+        String string = jsonObject.toJSONString();
+        System.err.println(string);
     }
 }

@@ -8,20 +8,33 @@ import java.util.Date;
 
 /**
  * 实体类
- * @author Administrator
  *
+ * @author Administrator
  */
 @Entity
 @Table(name = "handover")
 public class Handover implements Serializable {
-
+    /**
+     * 交接Id
+     */
     @Id
-    private String Id;//交接Id
+    private String Id;
 
-
-    private Date date;//建立时间
-    private String main;//交接内容
-    private String dates;//建立时间字符串格式
+    /**
+     * 建立时间
+     */
+    private Date date;
+    /**
+     * 交接内容
+     */
+    private String main;
+    /**
+     * 建立时间字符串格式
+     */
+    private String dates;
+    /**
+     * 用户名称
+     */
     private String username;
 
     public Handover() {

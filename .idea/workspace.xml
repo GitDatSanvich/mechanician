@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Elaking.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/mechanician_user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/MagicValues.java" afterDir="false" />
+    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="&lt;增加EasyExcelDemo&gt;">
+      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/minGan/BadWordUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/ConversionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CustomThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mechanician.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mechanician.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/JasyptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/JasyptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Handover.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Handover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/ConversionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/ConversionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mechanician_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/core/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/core/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/dao/UsersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailContentTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailContentTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/MailEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/entity/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +63,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mechanician" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,7 +123,15 @@
   </component>
   <component name="ProjectId" id="1OXq1H63zwbXEz8bYuGmI7NTfBr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -120,6 +144,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553087030724" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -127,20 +152,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\develop\frameWork\mechanician\mechanician_user\src\main\resources\static" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="git.mechanician.task" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="git.mechanician.task.utils" />
-      <recent name="git.mechanician.task.pojo" />
-      <recent name="git.mechanician.user.pojo" />
-      <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\develop\frameWork\mechanician\mechanician_task\src\main\java\git\mechanician\task" />
@@ -149,6 +165,16 @@
       <recent name="F:\develop\frameWork\mechanician\mechanician_user\src\main\resources" />
       <recent name="F:\develop\frameWork\mechanician\mechanician_user\src\main\java\git\mechanician\user\core" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="git.mechanician.user.utils" />
+      <recent name="git.mechanician.task.utils" />
+      <recent name="git.mechanician.task.pojo" />
+      <recent name="git.mechanician.user.pojo" />
+      <recent name="pojo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\develop\frameWork\mechanician\mechanician_user\src\main\resources\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -156,25 +182,14 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-    <option name="contentProportion" value="0.20021646" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
-    <configuration name="EzExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.mechanician.task.EzExcel" />
+  <component name="RunManager" selected="Application.CustomThreadPoolExecutor">
+    <configuration name="BadWordUtil2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.mechanician.task.minGan.BadWordUtil2" />
       <module name="mechanician_task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="git.mechanician.task.*" />
+          <option name="PATTERN" value="git.mechanician.task.minGan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +197,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JasyptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="git.mechanician.task.JasyptTest" />
+    <configuration name="ConnectAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConnectAccess" />
+      <module name="mechanician_user" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.mechanician.user.utils.CustomThreadPoolExecutor" />
+      <module name="mechanician_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="git.mechanician.user.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="git.mechanician.task.MyThread" />
       <module name="mechanician_task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="git.mechanician.task.*" />
+          <option name="PATTERN" value="git.mechanician.task.Test" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,28 +243,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mechanician_user" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mechanician_config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="git.mechanician.config.ConfigApplication" />
@@ -237,14 +250,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mechanician_eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="git.mechanician.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="git.mechanician.eureka.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,10 +305,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CustomThreadPoolExecutor" />
+      <item itemvalue="Application.MyThread" />
+      <item itemvalue="Application.BadWordUtil2" />
+      <item itemvalue="Application.ConnectAccess" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.JasyptTest" />
-      <item itemvalue="Application.EzExcel" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Spring Boot.ToolsApplication" />
       <item itemvalue="Spring Boot.HandOverApplication" />
       <item itemvalue="Spring Boot.TaskApplication" />
@@ -312,28 +320,28 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Application.CustomThreadPoolExecutor" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.JasyptTest" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="Application.EzExcel" />
+        <item itemvalue="Application.BadWordUtil2" />
+        <item itemvalue="Application.ConnectAccess" />
+        <item itemvalue="Application.MyThread" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2dca2e33" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -475,14 +483,69 @@
       <workItem from="1564548051803" duration="11273000" />
       <workItem from="1564639843644" duration="1165000" />
       <workItem from="1564641455072" duration="1212000" />
-      <workItem from="1564707715784" duration="2952000" />
-    </task>
-    <task id="LOCAL-00004" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
-      <created>1551032494232</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1551032494232</updated>
+      <workItem from="1564707715784" duration="3099000" />
+      <workItem from="1564727290357" duration="1663000" />
+      <workItem from="1564729053394" duration="634000" />
+      <workItem from="1564969691198" duration="9573000" />
+      <workItem from="1565053210841" duration="1666000" />
+      <workItem from="1565158504190" duration="1205000" />
+      <workItem from="1565229126629" duration="1231000" />
+      <workItem from="1565260851063" duration="2192000" />
+      <workItem from="1565424190759" duration="1011000" />
+      <workItem from="1565429488743" duration="553000" />
+      <workItem from="1565571812261" duration="2024000" />
+      <workItem from="1565681340661" duration="162000" />
+      <workItem from="1565698023448" duration="1218000" />
+      <workItem from="1565744506491" duration="796000" />
+      <workItem from="1565831052388" duration="91000" />
+      <workItem from="1566028473099" duration="1198000" />
+      <workItem from="1566111156239" duration="2075000" />
+      <workItem from="1566119869642" duration="625000" />
+      <workItem from="1566609128596" duration="2413000" />
+      <workItem from="1566888173321" duration="9109000" />
+      <workItem from="1566954375357" duration="629000" />
+      <workItem from="1566987399301" duration="2035000" />
+      <workItem from="1566993793832" duration="1532000" />
+      <workItem from="1567041227734" duration="21000" />
+      <workItem from="1567669143770" duration="443000" />
+      <workItem from="1567732756151" duration="94000" />
+      <workItem from="1568189512290" duration="3143000" />
+      <workItem from="1568711470231" duration="788000" />
+      <workItem from="1568712468385" duration="2476000" />
+      <workItem from="1568769016444" duration="1988000" />
+      <workItem from="1570759767516" duration="12939000" />
+      <workItem from="1570842935405" duration="949000" />
+      <workItem from="1570857085936" duration="847000" />
+      <workItem from="1571118394984" duration="3481000" />
+      <workItem from="1571187950083" duration="729000" />
+      <workItem from="1571294375593" duration="2246000" />
+      <workItem from="1571465591596" duration="38000" />
+      <workItem from="1571723527481" duration="516000" />
+      <workItem from="1571726640210" duration="628000" />
+      <workItem from="1572515257728" duration="168000" />
+      <workItem from="1572835358000" duration="7455000" />
+      <workItem from="1572916948747" duration="1784000" />
+      <workItem from="1572939555606" duration="550000" />
+      <workItem from="1573002835816" duration="557000" />
+      <workItem from="1573452042771" duration="532000" />
+      <workItem from="1573461438770" duration="1227000" />
+      <workItem from="1573521237835" duration="2603000" />
+      <workItem from="1573526629436" duration="2055000" />
+      <workItem from="1573609613985" duration="2069000" />
+      <workItem from="1575342148151" duration="56000" />
+      <workItem from="1575623395545" duration="2561000" />
+      <workItem from="1575853820536" duration="1224000" />
+      <workItem from="1575973233223" duration="1653000" />
+      <workItem from="1576217850369" duration="1270000" />
+      <workItem from="1576459957298" duration="714000" />
+      <workItem from="1576465913872" duration="846000" />
+      <workItem from="1576552037592" duration="1096000" />
+      <workItem from="1577245506152" duration="40000" />
+      <workItem from="1577262485447" duration="6449000" />
+      <workItem from="1577322873940" duration="17704000" />
+      <workItem from="1577353567878" duration="3126000" />
+      <workItem from="1577409380974" duration="3404000" />
+      <workItem from="1577430758975" duration="1944000" />
     </task>
     <task id="LOCAL-00005" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
       <created>1551032569405</created>
@@ -820,13 +883,15 @@
       <option name="project" value="LOCAL" />
       <updated>1564640848369</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="&lt;增加EasyExcelDemo&gt;">
+      <created>1564711758813</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1564711758813</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ConfigApplicationTests - 2019.06.13 at 10h 14m 22s.xml">
-      <configuration name="ConfigApplicationTests" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -962,96 +1027,109 @@
     <option name="LAST_COMMIT_MESSAGE" value="&lt;增加EasyExcelDemo&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2583" y="235" key="#CustomThreadPoolExecutor" timestamp="1577268234699">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2583" y="235" key="#CustomThreadPoolExecutor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577268234699" />
+    <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575973501744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575973501744" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1577327564027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577327564027" />
+    <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577326572729" />
+    <state x="509" y="114" key="CommitChangelistDialog2" timestamp="1577354124873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="509" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577354124873" />
+    <state width="446" height="466" key="DebuggerActiveHint" timestamp="1577330712299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="446" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577330712299" />
+    <state width="1723" height="263" key="GridCell.Tab.-1.bottom" timestamp="1577266626748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="263" key="GridCell.Tab.-1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577266626748" />
+    <state width="1723" height="263" key="GridCell.Tab.-1.center" timestamp="1577266626748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="263" key="GridCell.Tab.-1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577266626748" />
+    <state width="1723" height="263" key="GridCell.Tab.-1.left" timestamp="1577266626748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="263" key="GridCell.Tab.-1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577266626748" />
+    <state width="1723" height="263" key="GridCell.Tab.-1.right" timestamp="1577266626748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1723" height="263" key="GridCell.Tab.-1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577266626748" />
+    <state width="1543" height="297" key="GridCell.Tab.0.bottom" timestamp="1577431827882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1543" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827882" />
+    <state width="1550" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213381" />
+    <state width="1543" height="297" key="GridCell.Tab.0.center" timestamp="1577431827881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1543" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827881" />
+    <state width="1550" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213380" />
+    <state width="1543" height="297" key="GridCell.Tab.0.left" timestamp="1577431827881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1543" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827881" />
+    <state width="1550" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213380" />
+    <state width="1543" height="297" key="GridCell.Tab.0.right" timestamp="1577431827882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1543" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827881" />
+    <state width="1550" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213381" />
+    <state width="1719" height="274" key="GridCell.Tab.1.bottom" timestamp="1577355135438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1719" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577355135438" />
+    <state width="1719" height="274" key="GridCell.Tab.1.center" timestamp="1577355135437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1719" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577355135437" />
+    <state width="1719" height="274" key="GridCell.Tab.1.left" timestamp="1577355135437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1719" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577355135437" />
+    <state width="1719" height="274" key="GridCell.Tab.1.right" timestamp="1577355135437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1719" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577355135437" />
+    <state x="540" y="258" key="IDE.errors.dialog" timestamp="1577327818960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="258" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577327818960" />
+    <state x="1073" y="74" key="extract.method.dialog" timestamp="1575973490892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1073" y="74" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575973490892" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1577327028793">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327028793" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mechanician$ZuulApplication.ic" NAME="ZuulApplication Coverage Results" MODIFIED="1558798376157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>mechanician_user</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

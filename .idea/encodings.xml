@@ -3,11 +3,18 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_handOver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_handOver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_tools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mechanician_zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mechanician_zuul/src/main/java" charset="UTF-8" />
   </component>
 </project>

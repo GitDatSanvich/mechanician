@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "file-storage.download-location",
+      "type": "java.lang.String",
+      "description": "文件下载地址."
+    },
+    {
+      "name": "file-storage.upload-location",
+      "type": "java.lang.String",
+      "description": "Description for file-storage.upload-location."
+    }
+  ]
+}

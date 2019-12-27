@@ -1,4 +1,4 @@
-package git.mechanician.task.utils;
+package git.mechanician.user.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.JsonParseException;
