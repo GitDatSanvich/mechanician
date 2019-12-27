@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="&lt;增加EasyExcelDemo&gt;">
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/minGan/BadWordUtil2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/ConversionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CustomThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mechanician_user/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mechanician.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mechanician.iml" afterDir="false" />
+    <list default="true" id="f5a4c405-f6f8-4742-b192-412c9fefe6cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/JasyptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/JasyptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Handover.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/pojo/Handover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/ConversionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_task/src/main/java/git/mechanician/task/utils/ConversionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CustomThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mechanician_user/src/main/java/git/mechanician/user/utils/CustomThreadPoolExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,14 +519,7 @@
       <workItem from="1577322873940" duration="17704000" />
       <workItem from="1577353567878" duration="3126000" />
       <workItem from="1577409380974" duration="3404000" />
-      <workItem from="1577430758975" duration="1944000" />
-    </task>
-    <task id="LOCAL-00005" summary="第一次提交 实现了一些基本的查询功能 还欠缺很多">
-      <created>1551032569405</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1551032569405</updated>
+      <workItem from="1577430758975" duration="4880000" />
     </task>
     <task id="LOCAL-00006" summary="Git还是没玩懂">
       <created>1551032618855</created>
@@ -890,7 +857,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564711758813</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="&lt;增加乱七八糟&gt;">
+      <created>1577432784222</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1577432784223</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -963,6 +937,11 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -1024,7 +1003,8 @@
     <MESSAGE value="尝试部署 更改userService里的邮件发送地址" />
     <MESSAGE value="&lt;增加FallBack&gt;&lt;增加声音测试?&gt;" />
     <MESSAGE value="&lt;增加EasyExcelDemo&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;增加EasyExcelDemo&gt;" />
+    <MESSAGE value="&lt;增加乱七八糟&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;增加乱七八糟&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -1041,10 +1021,10 @@
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577327564027" />
     <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577326572729" />
-    <state x="509" y="114" key="CommitChangelistDialog2" timestamp="1577354124873">
+    <state x="509" y="114" key="CommitChangelistDialog2" timestamp="1577432775407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="509" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577354124873" />
+    <state x="509" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577432775407" />
     <state width="446" height="466" key="DebuggerActiveHint" timestamp="1577330712299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1065,25 +1045,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1723" height="263" key="GridCell.Tab.-1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577266626748" />
-    <state width="1543" height="297" key="GridCell.Tab.0.bottom" timestamp="1577431827882">
+    <state width="1541" height="340" key="GridCell.Tab.0.bottom" timestamp="1577435509738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1543" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827882" />
+    <state width="1541" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577435509738" />
     <state width="1550" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213381" />
-    <state width="1543" height="297" key="GridCell.Tab.0.center" timestamp="1577431827881">
+    <state width="1541" height="340" key="GridCell.Tab.0.center" timestamp="1577435509738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1543" height="297" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827881" />
+    <state width="1541" height="340" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577435509738" />
     <state width="1550" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213380" />
-    <state width="1543" height="297" key="GridCell.Tab.0.left" timestamp="1577431827881">
+    <state width="1541" height="340" key="GridCell.Tab.0.left" timestamp="1577435509738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1543" height="297" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827881" />
+    <state width="1541" height="340" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577435509738" />
     <state width="1550" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213380" />
-    <state width="1543" height="297" key="GridCell.Tab.0.right" timestamp="1577431827882">
+    <state width="1541" height="340" key="GridCell.Tab.0.right" timestamp="1577435509738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1543" height="297" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577431827881" />
+    <state width="1541" height="340" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577435509738" />
     <state width="1550" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577327213381" />
     <state width="1719" height="274" key="GridCell.Tab.1.bottom" timestamp="1577355135438">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1105,6 +1085,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="258" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577327818960" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1577432788701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577432788701" />
     <state x="1073" y="74" key="extract.method.dialog" timestamp="1575973490892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

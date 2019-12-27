@@ -100,9 +100,6 @@ public class CustomThreadPoolExecutor {
 
 
     public static void main(String[] args) {
-
-        Map<Long, Result> resultMap = new HashMap<>(16);
-
         CustomThreadPoolExecutor exec = new CustomThreadPoolExecutor();
         // 1.初始化
         exec.init();
@@ -117,7 +114,6 @@ public class CustomThreadPoolExecutor {
                 int timeout = new Random().nextInt(20);
                 result.setSleepTime(timeout + "");
                 TimeUnit.MILLISECONDS.sleep(timeout);
-                resultMap.put((long) a, result);
                 return a + ":" + timeout;
             };
             tasksList.add(task);
